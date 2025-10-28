@@ -19,7 +19,6 @@
             android:orientation="vertical"
             android:padding="20dp">
 
-            <!-- Header Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -73,7 +72,6 @@
 
             </LinearLayout>
 
-            <!-- Quick Stats Card -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -134,7 +132,6 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- Main Actions Grid -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -149,14 +146,12 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <!-- First Row -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_marginBottom="16dp">
 
-                    <!-- Student History Card -->
                     <androidx.cardview.widget.CardView
                         android:id="@+id/card_student_history"
                         android:layout_width="0dp"
@@ -197,7 +192,6 @@
 
                     </androidx.cardview.widget.CardView>
 
-                    <!-- Generate QR Code Card -->
                     <androidx.cardview.widget.CardView
                         android:id="@+id/card_generate_qr"
                         android:layout_width="0dp"
@@ -239,14 +233,12 @@
 
                 </LinearLayout>
 
-                <!-- Second Row -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_marginBottom="24dp">
 
-                    <!-- View Attendance Records Card -->
                     <androidx.cardview.widget.CardView
                         android:id="@+id/card_attendance_records"
                         android:layout_width="0dp"
@@ -293,7 +285,6 @@
 
             </LinearLayout>
 
-            <!-- Recent Activity Section -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -303,7 +294,6 @@
                 android:textSize="20sp"
                 android:layout_marginBottom="16dp" />
 
-            <!-- Recent Activity Cards -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -364,7 +354,6 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -383,8 +372,8 @@
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:src="@drawable/ic_lab"
-                        android:background="@drawable/circle_blue_bg"
+                        android:src="@drawable/ic_class"
+                        android:background="@drawable/circle_green_bg"
                         android:padding="8dp"
                         app:tint="@color/white"
                         android:layout_marginEnd="16dp" />
@@ -398,19 +387,19 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Physics Lab"
+                            android:text="Software Engineering"
                             android:textColor="@color/text_light"
                             android:textSize="16sp"
-                            android:fontFamily="@font/cascadiacode" />
+                            android:fontFamily="@font/cascadiacode"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="25 Nov • 14:00-15:30"
+                            android:text="24 Nov • 14:00-15:30"
                             android:textColor="@color/text_secondary"
-                            android:fontFamily="@font/cascadiacode"
                             android:textSize="12sp"
-                            android:layout_marginTop="2dp" />
+                            android:layout_marginTop="2dp"
+                            android:fontFamily="@font/cascadiacode"/>
 
                     </LinearLayout>
 
@@ -426,11 +415,50 @@
 
             </androidx.cardview.widget.CardView>
 
+            <!-- Logout Button -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_logout_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                android:backgroundTint="@color/error_red"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Logout"
+                        android:layout_marginLeft="-10dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/cascadiacode" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80dp" />
+
         </LinearLayout>
 
     </ScrollView>
 
-    <!-- Bottom Navigation Bar -->
+    <!--Navigation bar -->
     <LinearLayout
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
@@ -441,14 +469,34 @@
         android:background="@drawable/glass_nav_background"
         android:orientation="horizontal"
         android:gravity="center"
-        android:paddingHorizontal="20dp"
+        android:paddingHorizontal="10dp"
         android:elevation="16dp"
         android:translationZ="16dp"
         android:alpha="0.95">
 
-        <!-- Home Button -->
         <LinearLayout
             android:id="@+id/nav_home"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/nav_button_inactive"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginEnd="4dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_profile"
+                app:tint="#FFFFFF" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nav_second"
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_weight="1"
@@ -457,187 +505,56 @@
             android:orientation="horizontal"
             android:clickable="true"
             android:focusable="true"
-            android:minWidth="100dp">
+            android:layout_marginHorizontal="4dp">
 
             <ImageView
-                android:id="@+id/home_icon"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
                 android:src="@drawable/ic_home"
-                android:layout_marginEnd="6dp"
                 app:tint="#FFFFFF" />
 
-            <TextView
-                android:id="@+id/home_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Home"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:fontFamily="sans-serif-medium"
-                android:shadowColor="#40000000"
-                android:shadowDx="0"
-                android:shadowDy="1"
-                android:shadowRadius="2"
-                android:visibility="visible"
-                android:singleLine="true"
-                android:ellipsize="none" />
 
         </LinearLayout>
 
-        <!-- Documents Button -->
         <LinearLayout
-            android:id="@+id/nav_documents"
+            android:id="@+id/nav_third"
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_weight="1"
+            android:background="@drawable/nav_button_inactive"
             android:gravity="center"
             android:orientation="horizontal"
             android:clickable="true"
             android:focusable="true"
-            android:background="@drawable/nav_button_inactive"
-            android:minWidth="100dp">
+            android:layout_marginHorizontal="4dp">
 
             <ImageView
-                android:id="@+id/documents_icon"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:src="@drawable/ic_document"
-                android:layout_marginEnd="6dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_attendance2"
                 app:tint="#FFFFFF" />
 
-            <TextView
-                android:id="@+id/documents_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Docs"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:fontFamily="sans-serif-medium"
-                android:shadowColor="#40000000"
-                android:shadowDx="0"
-                android:shadowDy="1"
-                android:shadowRadius="2"
-                android:visibility="gone"
-                android:singleLine="true"
-                android:ellipsize="none" />
 
         </LinearLayout>
 
-        <!-- Chat Button -->
         <LinearLayout
-            android:id="@+id/nav_chat"
+            android:id="@+id/nav_fourth"
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_weight="1"
+            android:background="@drawable/nav_button_inactive"
             android:gravity="center"
             android:orientation="horizontal"
             android:clickable="true"
             android:focusable="true"
-            android:background="@drawable/nav_button_inactive"
-            android:minWidth="100dp">
+            android:layout_marginStart="4dp">
 
             <ImageView
-                android:id="@+id/chat_icon"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
                 android:src="@drawable/ic_qr_code"
-                android:layout_marginEnd="6dp"
                 app:tint="#FFFFFF" />
 
-            <TextView
-                android:id="@+id/chat_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Chat"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:fontFamily="sans-serif-medium"
-                android:shadowColor="#40000000"
-                android:shadowDx="0"
-                android:shadowDy="1"
-                android:shadowRadius="2"
-                android:visibility="gone"
-                android:singleLine="true"
-                android:ellipsize="none" />
-
-        </LinearLayout>
-
-        <!-- Menu Button -->
-        <LinearLayout
-            android:id="@+id/nav_menu"
-            android:layout_width="0dp"
-            android:layout_height="45dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:clickable="true"
-            android:focusable="true"
-            android:background="@drawable/nav_button_inactive"
-            android:minWidth="100dp">
-
-            <ImageView
-                android:id="@+id/menu_icon"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:src="@drawable/ic_menu"
-                android:layout_marginEnd="6dp"
-                app:tint="#FFFFFF" />
-
-            <TextView
-                android:id="@+id/menu_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Menu"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:fontFamily="sans-serif-medium"
-                android:shadowColor="#40000000"
-                android:shadowDx="0"
-                android:shadowDy="1"
-                android:shadowRadius="2"
-                android:visibility="gone"
-                android:singleLine="true"
-                android:ellipsize="none" />
-
-        </LinearLayout>
-
-        <!-- Profile Button -->
-        <LinearLayout
-            android:id="@+id/nav_profile"
-            android:layout_width="0dp"
-            android:layout_height="45dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:clickable="true"
-            android:focusable="true"
-            android:background="@drawable/nav_button_inactive"
-            android:minWidth="100dp">
-
-            <ImageView
-                android:id="@+id/profile_icon"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:src="@drawable/ic_profile"
-                android:layout_marginEnd="6dp"
-                app:tint="#FFFFFF" />
-
-            <TextView
-                android:id="@+id/profile_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Profile"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:fontFamily="sans-serif-medium"
-                android:shadowColor="#40000000"
-                android:shadowDx="0"
-                android:shadowDy="1"
-                android:shadowRadius="2"
-                android:visibility="gone"
-                android:singleLine="true"
-                android:ellipsize="none" />
 
         </LinearLayout>
 
