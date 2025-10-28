@@ -47,11 +47,11 @@ The result is accurate, transparent, and trustworthy records.
 
 Add screenshots of your application below:
 
-![Student Dashboard Screenshot](../Pictures/Screenshots/Screenshot%202025-10-26%20112621.png)  
-![Teacher Dashboard Screenshot](../Pictures/Screenshots/Screenshot%202025-10-26%20120048.png)  
-![Admin Dashboard Screenshot](../Pictures/Screenshots/Screenshot%202025-10-26%20104245.png)  
-![Attendance Marking Screenshot](../Pictures/Screenshots/Screenshot%202025-10-26%20113153.png)  
-![Admin View Student Screenshot](../Pictures/Screenshots/Screenshot%202025-10-26%20104428.png)
+![Student Dashboard Screenshot](./screenshots/Screenshot%202025-10-26%20112621.png)  
+![Teacher Dashboard Screenshot](./screenshots/Screenshot%202025-10-26%20120048.png)  
+![Admin Dashboard Screenshot](./screenshots/Screenshot%202025-10-26%20104245.png)  
+![Attendance Marking Screenshot](./screenshots/Screenshot%202025-10-26%20113153.png)  
+![Admin View Student Screenshot](./screenshots/Screenshot%202025-10-26%20104428.png)
 
 ---
 
