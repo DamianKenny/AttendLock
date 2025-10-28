@@ -14,12 +14,10 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.provider.Settings;
 import android.text.TextUtils;
-import android.util.Base64;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -33,28 +31,20 @@ import androidx.core.content.ContextCompat;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.CircleCrop;
 import com.bumptech.glide.request.RequestOptions;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import com.nibm.attendancetracker.common.BlurNavigationHelper;
 import com.nibm.attendancetracker.R;
+import com.nibm.attendancetracker.common.NavigationHelper;
 
 import java.io.ByteArrayOutputStream;
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.UUID;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -73,11 +63,6 @@ public class StudentProfileActivity extends AppCompatActivity {
     private Switch switchNotifications;
     private Button btnSaveChanges;
 
-    // Bottom Navigation Views
-    private LinearLayout navHome, navDocuments, navChat, navMenu, navProfile;
-    private TextView homeText, documentsText, chatText, menuText, profileText;
-    private ImageView homeIcon, documentsIcon, chatIcon, menuIcon, profileIcon;
-
     // Firebase
     private FirebaseFirestore firestore;
     private FirebaseStorage storage;
@@ -86,7 +71,6 @@ public class StudentProfileActivity extends AppCompatActivity {
     private String currentUserId;
 
     private SharedPreferences sharedPreferences;
-    private int currentSelectedTab = 4; // Profile tab is selected (index 4)
 
     // Temporary storage for selected image
     private Bitmap selectedBitmap;
@@ -99,17 +83,16 @@ public class StudentProfileActivity extends AppCompatActivity {
 
         initViews();
         initFirebase();
-        initBottomNavigation();
         setupClickListeners();
-        setupBottomNavigationListeners();
+
+        // Setup navigation with role
+        NavigationHelper.setupNavigation(this, "student");
+
         loadUserProfileFromFirestore();
 
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
         }
-
-        // Set profile tab as selected
-        selectTab(4);
     }
 
     private void initViews() {
@@ -285,149 +268,6 @@ public class StudentProfileActivity extends AppCompatActivity {
             loadProfilePicture(profilePictureUrl);
         } else {
             profileImage.setImageResource(R.drawable.default_profile);
-        }
-    }
-
-    // -------------------- GLASSY NAVIGATION BAR --------------------
-
-    private void initBottomNavigation() {
-        // Initialize navigation layouts
-        navHome = findViewById(R.id.nav_home);
-        navDocuments = findViewById(R.id.nav_documents);
-        navChat = findViewById(R.id.nav_chat);
-        navMenu = findViewById(R.id.nav_menu);
-        navProfile = findViewById(R.id.nav_profile);
-
-        // Initialize all text views
-        homeText = findViewById(R.id.home_text);
-        documentsText = findViewById(R.id.documents_text);
-        chatText = findViewById(R.id.chat_text);
-        menuText = findViewById(R.id.menu_text);
-        profileText = findViewById(R.id.profile_text);
-
-        // Initialize all icons
-        homeIcon = findViewById(R.id.home_icon);
-        documentsIcon = findViewById(R.id.documents_icon);
-        chatIcon = findViewById(R.id.chat_icon);
-        menuIcon = findViewById(R.id.menu_icon);
-        profileIcon = findViewById(R.id.profile_icon);
-    }
-
-    private void setupBottomNavigationListeners() {
-        if (navHome != null) {
-            navHome.setOnClickListener(v -> {
-                selectTab(0);
-                Intent intent = new Intent(this, StudentDashboardActivity.class);
-                startActivity(intent);
-                finish();
-            });
-        }
-
-        if (navDocuments != null) {
-            navDocuments.setOnClickListener(v -> {
-                selectTab(1);
-                Intent intent = new Intent(this, QRScannerActivity.class);
-                startActivity(intent);
-                finish();
-            });
-        }
-
-        if (navChat != null) {
-            navChat.setOnClickListener(v -> {
-                selectTab(2);
-                Intent intent = new Intent(this, QRScannerActivity.class);
-                startActivity(intent);
-                finish();
-            });
-        }
-
-        if (navMenu != null) {
-            navMenu.setOnClickListener(v -> {
-                selectTab(3);
-                Toast.makeText(this, "Menu selected", Toast.LENGTH_SHORT).show();
-            });
-        }
-
-        if (navProfile != null) {
-            navProfile.setOnClickListener(v -> {
-                selectTab(4);
-                // Already on Profile, just update selection
-            });
-        }
-    }
-
-    private void selectTab(int tabIndex) {
-        resetAllTabs();
-        currentSelectedTab = tabIndex;
-
-        switch (tabIndex) {
-            case 0: // Home
-                setTabSelected(navHome, homeText, "Home");
-                break;
-            case 1: // Documents
-                setTabSelected(navDocuments, documentsText, "Documents");
-                break;
-            case 2: // Chat
-                setTabSelected(navChat, chatText, "Chat");
-                break;
-            case 3: // Menu
-                setTabSelected(navMenu, menuText, "Menu");
-                break;
-            case 4: // Profile
-                setTabSelected(navProfile, profileText, "Profile");
-                break;
-        }
-    }
-
-    private void resetAllTabs() {
-        setTabInactive(navHome, homeText);
-        setTabInactive(navDocuments, documentsText);
-        setTabInactive(navChat, chatText);
-        setTabInactive(navMenu, menuText);
-        setTabInactive(navProfile, profileText);
-    }
-
-    private void setTabSelected(LinearLayout tabLayout, TextView textView, String text) {
-        if (tabLayout != null && textView != null) {
-            tabLayout.setBackground(ContextCompat.getDrawable(this, R.drawable.nav_button_active));
-            textView.setText(text);
-            textView.setVisibility(TextView.VISIBLE);
-            animateTabExpansion(tabLayout, textView, true);
-        }
-    }
-
-    private void setTabInactive(LinearLayout tabLayout, TextView textView) {
-        if (tabLayout != null && textView != null) {
-            tabLayout.setBackground(ContextCompat.getDrawable(this, R.drawable.nav_button_inactive));
-            textView.setVisibility(TextView.GONE);
-            animateTabExpansion(tabLayout, textView, false);
-        }
-    }
-
-    private void animateTabExpansion(LinearLayout tabLayout, TextView textView, boolean expand) {
-        LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) tabLayout.getLayoutParams();
-
-        if (expand) {
-            params.weight = 2.0f;
-        } else {
-            params.weight = 1.0f;
-        }
-
-        tabLayout.setLayoutParams(params);
-
-        if (expand) {
-            textView.setAlpha(0f);
-            textView.setVisibility(TextView.VISIBLE);
-            textView.animate()
-                    .alpha(1f)
-                    .setDuration(200)
-                    .start();
-        } else {
-            textView.animate()
-                    .alpha(0f)
-                    .setDuration(150)
-                    .withEndAction(() -> textView.setVisibility(TextView.GONE))
-                    .start();
         }
     }
 
@@ -763,17 +603,5 @@ public class StudentProfileActivity extends AppCompatActivity {
                     btnSaveChanges.setText("Save Changes");
                     Toast.makeText(this, "Error: " + e.getMessage(), Toast.LENGTH_SHORT).show();
                 });
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        if (currentSelectedTab == 4) {
-            selectTab(4);
-        }
-    }
-
-    public int getCurrentSelectedTab() {
-        return currentSelectedTab;
     }
 }
