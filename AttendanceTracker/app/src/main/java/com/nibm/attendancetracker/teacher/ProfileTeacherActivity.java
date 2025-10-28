@@ -10,13 +10,11 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.util.Base64;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.TextView;
@@ -32,19 +30,16 @@ import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.nibm.attendancetracker.R;
-import com.nibm.attendancetracker.common.BlurNavigationHelper;
+import com.nibm.attendancetracker.common.NavigationHelper; // Use the common NavigationHelper
 import com.nibm.attendancetracker.student.QRScannerActivity;
 import com.nibm.attendancetracker.student.StudentDashboardActivity;
 
-import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.List;
-
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class ProfileTeacherActivity extends AppCompatActivity {
-
     private static final int CAMERA_REQUEST = 1001;
     private static final int GALLERY_REQUEST = 1002;
     private static final int CAMERA_PERMISSION_CODE = 1003;
@@ -58,16 +53,9 @@ public class ProfileTeacherActivity extends AppCompatActivity {
     private Switch switchNotifications, switchDarkMode;
     private Button btnSaveChanges;
 
-    private LinearLayout navHome, navDocuments, navChat, navMenu, navProfile;
-    private TextView homeText, documentsText, chatText, menuText, profileText;
-    private ImageView homeIcon, documentsIcon, chatIcon, menuIcon, profileIcon;
-
-    private BlurNavigationHelper blurHelper;
     private SharedPreferences sharedPreferences;
     private FirebaseFirestore firestore;
-
     private String currentUserEmail;
-    private int currentSelectedTab = 4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,13 +64,13 @@ public class ProfileTeacherActivity extends AppCompatActivity {
 
         if (getSupportActionBar() != null) getSupportActionBar().hide();
 
+        NavigationHelper.setupNavigation(this, "teacher");
+
         firestore = FirebaseFirestore.getInstance();
         sharedPreferences = getSharedPreferences("UserProfile", MODE_PRIVATE);
         currentUserEmail = sharedPreferences.getString("current_user_email", null);
 
         initViews();
-        initBottomNavigation();
-        setupBottomNavigationListeners();
         setupClickListeners();
 
         if (currentUserEmail != null) {
@@ -91,7 +79,6 @@ public class ProfileTeacherActivity extends AppCompatActivity {
             Toast.makeText(this, "No user email found. Please log in again.", Toast.LENGTH_SHORT).show();
         }
 
-        selectTab(4);
     }
 
     private void initViews() {
@@ -118,7 +105,6 @@ public class ProfileTeacherActivity extends AppCompatActivity {
                 .addOnSuccessListener(querySnapshot -> {
                     if (!querySnapshot.isEmpty()) {
                         DocumentSnapshot doc = querySnapshot.getDocuments().get(0);
-
                         String name = doc.getString("name");
                         String phone = doc.getString("phone");
                         String department = doc.getString("department");
@@ -148,7 +134,6 @@ public class ProfileTeacherActivity extends AppCompatActivity {
                         } else {
                             setupSubjectSpinner(null);
                         }
-
                     } else {
                         Toast.makeText(this, "Teacher profile not found!", Toast.LENGTH_SHORT).show();
                     }
@@ -162,7 +147,6 @@ public class ProfileTeacherActivity extends AppCompatActivity {
         if (subjectList == null || subjectList.isEmpty()) {
             subjectList = java.util.Arrays.asList("No subjects assigned");
         }
-
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
                 this,
                 R.layout.spinner_item,
@@ -175,9 +159,7 @@ public class ProfileTeacherActivity extends AppCompatActivity {
     // -------------------- CLICK HANDLERS --------------------
     private void setupClickListeners() {
         if (btnBack != null) btnBack.setOnClickListener(v -> finish());
-
         if (btnEditPhoto != null) btnEditPhoto.setOnClickListener(v -> showImagePickerBottomSheet());
-
         if (btnSaveChanges != null) {
             btnSaveChanges.setOnClickListener(v ->
                     Toast.makeText(this, "Profile changes saved locally.", Toast.LENGTH_SHORT).show()
@@ -189,19 +171,15 @@ public class ProfileTeacherActivity extends AppCompatActivity {
     private void showImagePickerBottomSheet() {
         BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(this);
         View sheet = getLayoutInflater().inflate(R.layout.bottom_sheet_image_picker, null);
-
         sheet.findViewById(R.id.btn_camera).setOnClickListener(v -> {
             bottomSheetDialog.dismiss();
             openCamera();
         });
-
         sheet.findViewById(R.id.btn_gallery).setOnClickListener(v -> {
             bottomSheetDialog.dismiss();
             openGallery();
         });
-
         sheet.findViewById(R.id.btn_cancel).setOnClickListener(v -> bottomSheetDialog.dismiss());
-
         bottomSheetDialog.setContentView(sheet);
         bottomSheetDialog.show();
     }
@@ -248,77 +226,4 @@ public class ProfileTeacherActivity extends AppCompatActivity {
         }
     }
 
-    // -------------------- BOTTOM NAVIGATION --------------------
-    private void initBottomNavigation() {
-        navHome = findViewById(R.id.nav_home);
-        navDocuments = findViewById(R.id.nav_documents);
-        navChat = findViewById(R.id.nav_chat);
-        navMenu = findViewById(R.id.nav_menu);
-        navProfile = findViewById(R.id.nav_profile);
-
-        homeText = findViewById(R.id.home_text);
-        documentsText = findViewById(R.id.documents_text);
-        chatText = findViewById(R.id.chat_text);
-        menuText = findViewById(R.id.menu_text);
-        profileText = findViewById(R.id.profile_text);
-
-        homeIcon = findViewById(R.id.home_icon);
-        documentsIcon = findViewById(R.id.documents_icon);
-        chatIcon = findViewById(R.id.chat_icon);
-        menuIcon = findViewById(R.id.menu_icon);
-        profileIcon = findViewById(R.id.profile_icon);
-    }
-
-    private void setupBottomNavigationListeners() {
-        navHome.setOnClickListener(v -> {
-            selectTab(0);
-            startActivity(new Intent(this, StudentDashboardActivity.class));
-            finish();
-        });
-        navDocuments.setOnClickListener(v -> {
-            selectTab(1);
-            startActivity(new Intent(this, QRScannerActivity.class));
-            finish();
-        });
-        navChat.setOnClickListener(v -> {
-            selectTab(2);
-            Toast.makeText(this, "Chat clicked", Toast.LENGTH_SHORT).show();
-        });
-        navMenu.setOnClickListener(v -> {
-            selectTab(3);
-            Toast.makeText(this, "Menu clicked", Toast.LENGTH_SHORT).show();
-        });
-        navProfile.setOnClickListener(v -> selectTab(4));
-    }
-
-    private void selectTab(int index) {
-        resetAllTabs();
-        currentSelectedTab = index;
-        switch (index) {
-//            case 0 -> setTabSelected(navHome, homeText, "Home");
-//            case 1 -> setTabSelected(navDocuments, documentsText, "Documents");
-//            case 2 -> setTabSelected(navChat, chatText, "Chat");
-//            case 3 -> setTabSelected(navMenu, menuText, "Menu");
-//            case 4 -> setTabSelected(navProfile, profileText, "Profile");
-        }
-    }
-
-    private void resetAllTabs() {
-        setTabInactive(navHome, homeText);
-        setTabInactive(navDocuments, documentsText);
-        setTabInactive(navChat, chatText);
-        setTabInactive(navMenu, menuText);
-        setTabInactive(navProfile, profileText);
-    }
-
-    private void setTabSelected(LinearLayout tab, TextView text, String label) {
-        tab.setBackground(ContextCompat.getDrawable(this, R.drawable.nav_button_active));
-        text.setText(label);
-        text.setVisibility(View.VISIBLE);
-    }
-
-    private void setTabInactive(LinearLayout tab, TextView text) {
-        tab.setBackground(ContextCompat.getDrawable(this, R.drawable.nav_button_inactive));
-        text.setVisibility(View.GONE);
-    }
 }
