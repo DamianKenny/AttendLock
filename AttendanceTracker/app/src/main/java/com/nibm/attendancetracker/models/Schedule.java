@@ -1,4 +1,3 @@
-// Schedule.java
 package com.nibm.attendancetracker.models;
 
 import java.util.List;

@@ -198,7 +198,7 @@ public class QRScannerActivity extends AppCompatActivity {
                     }
 
                     // Old format doesn't have scheduleId - allow without batch validation
-                    Toast.makeText(this, "⚠️ Old QR format detected - batch validation skipped", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "⚠ Old QR format detected - batch validation skipped", Toast.LENGTH_SHORT).show();
                     navigateToFaceScanActivity(qrData, teacherId, teacherName, subject, sessionId, timestamp,
                             null, null, null, null, null, null);
                 }

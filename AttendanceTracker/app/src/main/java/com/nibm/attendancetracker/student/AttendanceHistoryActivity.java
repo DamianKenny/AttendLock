@@ -193,7 +193,7 @@ public class AttendanceHistoryActivity extends AppCompatActivity {
                 .document(assignedScheduleId)
                 .collection("attendance")
                 .whereEqualTo("studentEmail", currentStudentEmail)
-                .get(com.google.firebase.firestore.Source.SERVER) // ✅ FORCE SERVER FETCH
+                .get()
                 .addOnSuccessListener(queryDocumentSnapshots -> {
                     attendanceBySubject = new HashMap<>();
 

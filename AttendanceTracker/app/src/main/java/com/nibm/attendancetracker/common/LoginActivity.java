@@ -26,14 +26,14 @@ public class LoginActivity extends AppCompatActivity {
 
     private TextInputEditText editTextEmail, editTextPassword;
     private Button buttonLogin;
-    private TextView textViewForgotPassword, textViewSignUp;
+    private TextView textViewForgotPassword;
     private AutoCompleteTextView roleDropdown;
     private FirebaseFirestore firestore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_page);
+        setContentView(R.layout.login_page); // Make sure the layout is updated
 
         initViews();
         setClickListeners();
@@ -54,16 +54,11 @@ public class LoginActivity extends AppCompatActivity {
         editTextPassword = findViewById(R.id.editTextPassword);
         buttonLogin = findViewById(R.id.buttonLogin);
         textViewForgotPassword = findViewById(R.id.textViewForgotPassword);
-        textViewSignUp = findViewById(R.id.textViewSignUp);
         roleDropdown = findViewById(R.id.roleDropdown);
     }
 
     private void setClickListeners() {
         buttonLogin.setOnClickListener(v -> loginUser());
-        textViewSignUp.setOnClickListener(v -> {
-            Intent intent = new Intent(LoginActivity.this, SignUpActivity.class);
-            startActivity(intent);
-        });
         textViewForgotPassword.setOnClickListener(v -> handleForgotPassword());
     }
 
