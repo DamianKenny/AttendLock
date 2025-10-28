@@ -51,7 +51,7 @@ Add screenshots of your application below:
 ![Teacher Dashboard Screenshot](./screenshots/Screenshot%202025-10-26%20120048.png)  
 ![Admin Dashboard Screenshot](./screenshots/Screenshot%202025-10-26%20104245.png)  
 ![Attendance Marking Screenshot](./screenshots/Screenshot%202025-10-26%20113153.png)  
-![Admin View Student Screenshot](./screenshots/Screenshot%202025-10-26%20104428.png)
+![Admin View Student Screenshot](./screenshots/Screenshot%202025-10-28%20134629.png)
 
 ---
 
