@@ -115,39 +115,6 @@
                             android:layout_marginTop="4dp"
                             style="@style/AppTextViewStyle"/>
 
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:layout_marginTop="8dp">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:layout_width="24dp"
-                                android:layout_height="24dp"
-                                android:src="@drawable/boy" />
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:layout_width="24dp"
-                                android:layout_height="24dp"
-                                android:src="@drawable/woman"
-                                android:layout_marginStart="-8dp" />
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:layout_width="24dp"
-                                android:layout_height="24dp"
-                                android:src="@drawable/woman2"
-                                android:layout_marginStart="-8dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="+4"
-                                android:textSize="12sp"
-                                android:textColor="@color/text_on_primary_secondary"
-                                android:layout_marginStart="4dp"
-                                android:gravity="center_vertical" />
-
-                        </LinearLayout>
 
                     </LinearLayout>
 
@@ -254,8 +221,8 @@
                             android:padding="16dp">
 
                             <ImageView
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
+                                android:layout_width="42dp"
+                                android:layout_height="42dp"
                                 android:layout_marginLeft="55dp"
                                 android:layout_marginTop="20dp"
                                 android:src="@drawable/ic_teacher"
@@ -294,12 +261,12 @@
                             android:padding="16dp">
 
                             <ImageView
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
+                                android:layout_width="42dp"
+                                android:layout_height="42dp"
                                 android:layout_marginLeft="55dp"
                                 android:layout_marginTop="20dp"
                                 android:src="@drawable/ic_setting"
-                                android:layout_marginBottom="-20dp" />
+                                android:layout_marginBottom="-30dp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -343,7 +310,6 @@
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:src="@drawable/history"
-                            app:tint="@color/white"
                             android:contentDescription="Attendance History" />
 
                         <TextView
@@ -387,10 +353,9 @@
                         android:gravity="center_vertical">
 
                         <ImageView
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:src="@drawable/scanner"
-                            app:tint="@color/white"
+                            android:layout_width="33dp"
+                            android:layout_height="33dp"
+                            android:src="@drawable/qrscanner"
                             android:contentDescription="QR Scanner" />
 
                         <TextView
