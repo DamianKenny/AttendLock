@@ -14,6 +14,7 @@ import androidx.cardview.widget.CardView;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.nibm.attendancetracker.R;
+import com.nibm.attendancetracker.common.NavigationHelper;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -50,6 +51,10 @@ public class ClassScheduleActivity extends AppCompatActivity {
 
         initializeViews();
         setupFirebase();
+
+        // Setup navigation with role
+        NavigationHelper.setupNavigation(this, "student");
+
         loadStudentData();
     }
 
