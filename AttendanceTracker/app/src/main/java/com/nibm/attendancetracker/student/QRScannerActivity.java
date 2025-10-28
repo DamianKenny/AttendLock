@@ -12,6 +12,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 import com.nibm.attendancetracker.R;
+import com.nibm.attendancetracker.common.NavigationHelper;
 
 import java.util.Locale;
 
@@ -34,6 +35,9 @@ public class QRScannerActivity extends AppCompatActivity {
 
         firestore = FirebaseFirestore.getInstance();
         tvStudentName = findViewById(R.id.tvStudentName);
+
+        // Setup navigation with role
+        NavigationHelper.setupNavigation(this, "student");
 
         getCurrentStudentData();
         initQRScanner();
@@ -341,5 +345,4 @@ public class QRScannerActivity extends AppCompatActivity {
             return false;
         }
     }
-
 }
