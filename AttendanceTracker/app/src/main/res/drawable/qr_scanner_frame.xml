@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Top Left Corner -->
+    <item
+        android:left="0dp"
+        android:top="0dp"
+        android:right="80dp"
+        android:bottom="80dp">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="3dp"
+                android:color="@color/white" />
+            <corners
+                android:topLeftRadius="8dp"
+                android:topRightRadius="0dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp" />
+        </shape>
+    </item>
+
+    <!-- Top Right Corner -->
+    <item
+        android:left="80dp"
+        android:top="0dp"
+        android:right="0dp"
+        android:bottom="80dp">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="3dp"
+                android:color="@color/white" />
+            <corners
+                android:topLeftRadius="0dp"
+                android:topRightRadius="8dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp" />
+        </shape>
+    </item>
+
+    <!-- Bottom Left Corner -->
+    <item
+        android:left="0dp"
+        android:top="80dp"
+        android:right="80dp"
+        android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="3dp"
+                android:color="@color/white" />
+            <corners
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp"
+                android:bottomLeftRadius="8dp"
+                android:bottomRightRadius="0dp" />
+        </shape>
+    </item>
+
+    <!-- Bottom Right Corner -->
+    <item
+        android:left="80dp"
+        android:top="80dp"
+        android:right="0dp"
+        android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="3dp"
+                android:color="@color/white" />
+            <corners
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="8dp" />
+        </shape>
+    </item>
+</layer-list>

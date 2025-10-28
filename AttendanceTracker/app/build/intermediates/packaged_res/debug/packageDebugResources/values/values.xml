@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_cream">#F5E6D3</color>
+    <color name="background_dark">#1F1F23</color>
+    <color name="background_light">#F8F9FA</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue_bg">#60A5FA</color>
+    <color name="blue_indicator">#2196F3</color>
+    <color name="blue_light">#60A5FA</color>
+    <color name="blue_primary">#3B82F6</color>
+    <color name="bottom_nav_background">#2C2C2E</color>
+    <color name="button_black">#212121</color>
+    <color name="button_pressed">#424242</color>
+    <color name="calendar_selected">#374151</color>
+    <color name="calendar_text_selected">#FFFFFF</color>
+    <color name="calendar_text_unselected">#6B7280</color>
+    <color name="calendar_unselected">#E5E7EB</color>
+    <color name="card_background">#F8F9FA</color>
+    <color name="card_background_dark">#2A2A2A</color>
+    <color name="card_bg">#2D2D2D</color>
+    <color name="card_blue">#87CEEB</color>
+    <color name="card_green">#58D68D</color>
+    <color name="card_light_purple">#E6E6FA</color>
+    <color name="card_notification">#76D7C4</color>
+    <color name="card_orange">#FFB347</color>
+    <color name="card_pink">#FFB6C1</color>
+    <color name="card_purple">#BB8FCE</color>
+    <color name="card_scan">#AF7AC5</color>
+    <color name="circle_blue">#60A5FA</color>
+    <color name="circle_green">#34D399</color>
+    <color name="circle_orange">#FB923C</color>
+    <color name="circle_purple">#8B5CF6</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="cyan_light">#67E8F9</color>
+    <color name="dark_gray">#34495E</color>
+    <color name="dark_primary_100">#102634</color>
+    <color name="dark_primary_200">#18384d</color>
+    <color name="dark_primary_300">#1e4a66</color>
+    <color name="dark_primary_400">#255c80</color>
+    <color name="dark_primary_50">#0c1b25</color>
+    <color name="dark_primary_500">#2d6e99</color>
+    <color name="dark_primary_600">#3580b3</color>
+    <color name="dark_primary_700">#3d92cc</color>
+    <color name="dark_primary_800">#5da9e0</color>
+    <color name="dark_primary_900">#8ec4ef</color>
+    <color name="dark_primary_950">#b1d5f5</color>
+    <color name="dark_secondary_100">#1e293b</color>
+    <color name="dark_secondary_200">#334155</color>
+    <color name="dark_secondary_300">#475569</color>
+    <color name="dark_secondary_400">#64748b</color>
+    <color name="dark_secondary_50">#0f172a</color>
+    <color name="dark_secondary_500">#94a3b8</color>
+    <color name="dark_secondary_600">#cbd5e1</color>
+    <color name="dark_secondary_700">#e2e8f0</color>
+    <color name="dark_secondary_800">#f1f5f9</color>
+    <color name="dark_secondary_900">#f8fafc</color>
+    <color name="dark_secondary_950">#ffffff</color>
+    <color name="dark_text">#2C3E50</color>
+    <color name="error">#EF4444</color>
+    <color name="error_red">#F44336</color>
+    <color name="gray_100">#F3F4F6</color>
+    <color name="gray_200">#E5E7EB</color>
+    <color name="gray_800">#1F2937</color>
+    <color name="gray_text">#7F8C8D</color>
+    <color name="green_bg">#34D399</color>
+    <color name="green_indicator">#4CAF50</color>
+    <color name="icon_secondary">#666666</color>
+    <color name="indicator_blue">#2196F3</color>
+    <color name="indicator_green">#4CAF50</color>
+    <color name="indicator_orange">#FF9800</color>
+    <color name="input_background">#F8FAFC</color>
+    <color name="input_border">#E0E0E0</color>
+    <color name="input_focused">#2196F3</color>
+    <color name="input_focused2">#8B5CF6</color>
+    <color name="input_stroke">#E2E8F0</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="light_gray_pressed">#EEEEEE</color>
+    <color name="math_orange">#F97316</color>
+    <color name="nav_icon_selected">#FFFFFF</color>
+    <color name="nav_icon_unselected">#8E8E93</color>
+    <color name="orange_accent">#F59E0B</color>
+    <color name="orange_bg">#FB923C</color>
+    <color name="orange_indicator">#FF9800</color>
+    <color name="orange_light">#FCD34D</color>
+    <color name="orange_primary">#F97316</color>
+    <color name="physics_blue">#0EA5E9</color>
+    <color name="pink_bg">#F472B6</color>
+    <color name="primary_100">#e0f2fe</color>
+    <color name="primary_200">#bae6fd</color>
+    <color name="primary_300">#7dd3fc</color>
+    <color name="primary_400">#38bdf8</color>
+    <color name="primary_50">#f0f9ff</color>
+    <color name="primary_500">#0ea5e9</color>
+    <color name="primary_600">#0284c7</color>
+    <color name="primary_700">#0369a1</color>
+    <color name="primary_800">#075985</color>
+    <color name="primary_900">#0c4a6e</color>
+    <color name="primary_950">#082f49</color>
+    <color name="primary_purple">#A855F7</color>
+    <color name="primary_purple_dark">#9333EA</color>
+    <color name="primary_purple_light">#C4B5FD</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="purple_dark">#7C3AED</color>
+    <color name="purple_gradient_end">#A855F7</color>
+    <color name="purple_gradient_start">#8B5CF6</color>
+    <color name="purple_indicator">#9C27B0</color>
+    <color name="purple_light">#A78BFA</color>
+    <color name="purple_primary">#8B5CF6</color>
+    <color name="secondary_100">#f1f5f9</color>
+    <color name="secondary_200">#e2e8f0</color>
+    <color name="secondary_300">#cbd5e1</color>
+    <color name="secondary_400">#94a3b8</color>
+    <color name="secondary_50">#f8fafc</color>
+    <color name="secondary_500">#64748b</color>
+    <color name="secondary_600">#475569</color>
+    <color name="secondary_700">#334155</color>
+    <color name="secondary_800">#1e293b</color>
+    <color name="secondary_900">#0f172a</color>
+    <color name="secondary_950">#020617</color>
+    <color name="success">#10B981</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="tag_blue">#BFDBFE</color>
+    <color name="tag_orange">#FED7AA</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="teal_pressed">#3A8B7E</color>
+    <color name="teal_primary">#4A9B8E</color>
+    <color name="text_dark">#212121</color>
+    <color name="text_gray">#757575</color>
+    <color name="text_light">#FFFFFF</color>
+    <color name="text_on_card">#374151</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_primary_secondary">#F3E8FF</color>
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_tertiary">#94A3B8</color>
+    <color name="transparent">#00000000</color>
+    <color name="warning">#F59E0B</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_transparent_30">#4DFFFFFF</color>
+    <color name="white_transparent_50">#80FFFFFF</color>
+    <color name="yellow_indicator">#FFEB3B</color>
+    <color name="yellow_primary">#EAB308</color>
+    <string name="account_created">Account created successfully!</string>
+    <string name="already_have_account">Already have an account? </string>
+    <string name="app_name">Attendance Recorder</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="confirm_password_required">Please confirm your password</string>
+    <string name="create_account">Create Account</string>
+    <string name="creating_account">Creating Account...</string>
+    <string name="demo_credentials">Demo: email = demo@demo.com, password = demo123</string>
+    <string name="email_hint">E-mail</string>
+    <string name="email_required">Email is required</string>
+    <string name="enter_email_first">Please enter your email first</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="gcm_defaultSenderId" translatable="false">446952572837</string>
+    <string name="google_api_key" translatable="false">AIzaSyAUUbcGFggHp2_IEiTiGeYhYFdvG6zKTBs</string>
+    <string name="google_app_id" translatable="false">1:446952572837:android:885ac5ed9415634a0dca4c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAUUbcGFggHp2_IEiTiGeYhYFdvG6zKTBs</string>
+    <string name="google_storage_bucket" translatable="false">attendlock-f3bf6.firebasestorage.app</string>
+    <string name="invalid_credentials">Invalid email or password</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="invalid_name">Please enter a valid name</string>
+    <string name="invalid_phone">Please enter a valid phone number</string>
+    <string name="join_attendance_recorder">Join Attendance Recorder</string>
+    <string name="log_in">Log In</string>
+    <string name="log_in_link">Log in</string>
+    <string name="logging_in">Logging in...</string>
+    <string name="login_successful">Login successful!</string>
+    <string name="name_required">Full name is required</string>
+    <string name="new_to_app">New to Attendance Recorder? </string>
+    <string name="password_hint">Password</string>
+    <string name="password_length">Password must be at least 6 characters</string>
+    <string name="password_required">Password is required</string>
+    <string name="password_strength">Password must contain at least one uppercase letter, one lowercase letter, and one number</string>
+    <string name="passwords_not_match">Passwords do not match</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="phone_required">Phone number is required</string>
+    <string name="project_id" translatable="false">attendlock-f3bf6</string>
+    <string name="reset_link_sent">Password reset link sent to %s</string>
+    <string name="sign_up">Sign up</string>
+    <string name="to_attendance_recorder">to Attendance Recorder</string>
+    <string name="welcome_back">Welcome Back</string>
+    <style name="AppTextViewStyle" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/cascadiacode</item>
+    </style>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background_cream</item>
+        <item name="android:statusBarColor">@color/background_cream</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="BodyTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    <style name="CalendarDaySelectedStyle" parent="CalendarDayStyle">
+        <item name="android:textColor">@color/calendar_text_selected</item>
+        <item name="android:background">@drawable/calendar_day_selected_background</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CalendarDayStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/calendar_text_unselected</item>
+        <item name="android:background">@drawable/calendar_day_background</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="CaptionTextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    <style name="CategoryButtonActive">
+        <item name="android:background">@drawable/category_button_active</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:minWidth">60dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CategoryButtonInactive">
+        <item name="android:background">@drawable/category_button_inactive</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:minWidth">60dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="ClickableText">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/ripple_effect</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_black_rounded</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:elevation">2dp</item>
+        <item name="cornerRadius">28dp</item>
+    </style>
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/input_border</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="hintTextColor">@color/text_gray</item>
+    </style>
+    <style name="EditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:background">@drawable/input_background</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="HeaderTextStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="PrimaryButton">
+        <item name="android:background">@drawable/primary_button_selector</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="SecondaryButton">
+        <item name="android:background">@drawable/secondary_button_bg</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="SecondaryTextStyle">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="SpinnerItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="SubHeaderTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="SwitchStyle" parent="Theme.AppCompat">
+        <item name="colorControlActivated">@color/blue_primary</item>
+        <item name="colorSwitchThumbNormal">@color/background_white</item>
+        <item name="android:colorForeground">@color/text_tertiary</item>
+    </style>
+    <style name="Theme.AttendanceTracker" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

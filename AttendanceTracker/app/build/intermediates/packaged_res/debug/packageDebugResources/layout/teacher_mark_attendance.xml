@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_arrow_back"
+                android:background="@drawable/circle_back_bg"
+                android:padding="8dp"
+                android:layout_marginEnd="16dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackgroundBorderless" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-10dp"
+                    android:text="Mark Attendance"
+                    android:textColor="@color/text_light"
+                    android:textSize="24sp"
+                    android:fontFamily="@font/cascadiacode" />
+
+                <TextView
+                    android:id="@+id/tv_student_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mark attendance for John Smith"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/cascadiacode"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Date Selection Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@color/card_bg">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_calendar"
+                    android:layout_marginEnd="12dp"
+                    app:tint="@color/purple_gradient_start" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Selected Date"
+                        android:textColor="@color/text_light"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/cascadiacode" />
+
+                    <TextView
+                        android:id="@+id/tv_selected_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15 Jan 2024"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="12sp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/cascadiacode"/>
+
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_select_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text="Change"
+                    app:backgroundTint="@null"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:background="@drawable/button_background"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Quick Actions Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@color/teal_700">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quick Actions"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/cascadiacode"
+                        android:layout_marginBottom="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mark all subjects with one action"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp"
+                        android:alpha="0.8"
+                        android:fontFamily="@font/cascadiacode"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_mark_all_present"
+                        android:layout_width="100dp"
+                        android:layout_height="43dp"
+                        android:text="All Present"
+                        android:textColor="@android:color/white"
+                        android:textSize="10sp"
+                        android:fontFamily="@font/cascadiacode"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:layout_marginEnd="6dp"
+                        android:textAllCaps="false"
+                        app:backgroundTint="@null"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_mark_all_absent"
+                        android:layout_width="100dp"
+                        android:layout_height="43dp"
+                        android:text="All Absent"
+                        android:textColor="@android:color/black"
+                        android:textSize="10sp"
+                        android:fontFamily="@font/cascadiacode"
+                        android:background="@drawable/button_background_white"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:textAllCaps="false"
+                        app:backgroundTint="@null"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Subjects Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mark Attendance by Subject"
+            android:textColor="@color/text_light"
+            android:textSize="18sp"
+            android:fontFamily="@font/cascadiacode"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Progress Indicator -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Progress"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                android:fontFamily="@font/cascadiacode"/>
+
+            <TextView
+                android:id="@+id/tv_progress_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/6 completed"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                android:fontFamily="@font/cascadiacode" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_marking"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:max="100"
+            android:progress="0"
+            android:progressTint="@color/purple_gradient_start"
+            android:progressBackgroundTint="@color/card_bg"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Subjects List -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_subjects_to_mark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:nestedScrollingEnabled="false" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btn_save_attendance"
+            style="@style/PrimaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Attendance"
+            android:fontFamily="@font/cascadiacode"
+            android:enabled="false" />
+
+    </LinearLayout>
+
+</ScrollView>

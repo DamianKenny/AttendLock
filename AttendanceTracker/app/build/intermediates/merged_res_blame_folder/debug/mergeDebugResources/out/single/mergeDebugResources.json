@@ -1,0 +1,1010 @@
+[
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_bottom_indicator.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\bottom_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_attendance.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_attendance.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_calendar_day_selected_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\calendar_day_selected_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_subject_attendance.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_subject_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_qr_code.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_qr_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_subject_chip.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_subject_chip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_profile_avatar.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_profile_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_calendar_day_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\calendar_day_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_qr_code_scanner.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_qr_code_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_class.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_class.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_admin_edit_teacher.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\admin_edit_teacher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_rounded_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\rounded_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_student_name_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\student_name_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_document.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_document.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_primary_button_bg.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\primary_button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_admin_dashboard.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\admin_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_qr_placeholder.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_qr_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_secondary_button_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\secondary_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_camera.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_student_checkbox.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_student_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_teacher_qr_attendance.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\teacher_qr_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_student.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_student.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_circle_purple_bg.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\circle_purple_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_qr_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\qr_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_input_background2.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\input_background2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_circle_white_transparent.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\circle_white_transparent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_email.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_email.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_teacher.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_teacher.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_check_circle.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_check_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_scanner_overlay.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\scanner_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_category_button_inactive.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\category_button_inactive.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_bg_calendar_day_selected.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\bg_calendar_day_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_tag_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\tag_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_circle_blue_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\circle_blue_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_users.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_users.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_calendar.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_attendance_history.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\attendance_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_qrcode.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\qrcode.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_qr_background_circle.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\qr_background_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_small_button_bg.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\small_button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_generate_button_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\generate_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_qr_code_large.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_qr_code_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ripple_effect.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ripple_effect.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_history.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_green_indicator.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\green_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_avatar3.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\avatar3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_orange_indicator.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\orange_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_class_schedule_card.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\class_schedule_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_student.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_schedule_icon_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\schedule_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_circle_orange_bg.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\circle_orange_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_arrow_right.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_user_profile_teacher.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\user_profile_teacher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_primary_button_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\primary_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_cancel.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_cancel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_status_badge_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\status_badge_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_circular_progress_bar.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\circular_progress_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_badge_red_bg.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\badge_red_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_card_ripple_effect.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\card_ripple_effect.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_student_attendance.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_student_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_badge.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_badge.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_add.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_spinner_item.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_view_students.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\view_students.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_location.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_class_background.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\class_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_camera.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\camera.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_location_outline.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_location_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_default_avatar.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\default_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_spinner_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\spinner_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_face_scan_location.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\face_scan_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_subject.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_subject.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_student_search.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_student_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_history.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\history.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_qr_scanner.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\qr_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_admin_create_subject.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\admin_create_subject.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_grid_filled.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_grid_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_input_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\input_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_spinner_dark_style.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\spinner_dark_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_menu.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_setting.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_setting.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_admin_view_students.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\admin_view_students.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_stars_texture.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\stars_texture.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_home_filled.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_home_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_photo.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_glow_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\glow_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_user_profile.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_teacher_dashboard.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\teacher_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_status_dot_green.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\status_dot_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_bottom_sheet_image_picker.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\bottom_sheet_image_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_admin_edit_student.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\admin_edit_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_today_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\today_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_primary_button_background2.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\primary_button_background2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_button_background_white.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\button_background_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_person_outline.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_person_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_location_filled.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_location_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_teacher_view_student_attendance.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\teacher_view_student_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_circle_green_bg.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\circle_green_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_format_list_numbered.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_format_list_numbered.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_teacher.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_teacher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_primary_button_bg_disabled.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\primary_button_bg_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_dropdown_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\dropdown_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_flash_off.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_flash_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_school3.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\school3.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_admin_view_schedules.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\admin_view_schedules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_upcoming_class.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_upcoming_class.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_circle_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\circle_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_web.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_web.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_bottom_nav_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\bottom_nav_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_login_page.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\login_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_school4.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\school4.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_lecture_time_display.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_lecture_time_display.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_subjects.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_subjects.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_gradient_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\gradient_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_category_button_active_blue.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\category_button_active_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_edit_text_bg.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\edit_text_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_selected_day_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\selected_day_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_bottom_sheet_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\bottom_sheet_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_mark_attendance.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_mark_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_person_filled.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_person_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_lab_equipment.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\lab_equipment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_circle_profile_bg.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\circle_profile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_quick_action_button.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\quick_action_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_school5.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\school5.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_admin_create_schedule.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\admin_create_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_category_button_active.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\category_button_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_schedule2.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_schedule2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_grid.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_signup_page.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\signup_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_button_black_rounded.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\button_black_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_stars_pattern.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\stars_pattern.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_admin_create_teacher.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\admin_create_teacher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_subject_detail.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_subject_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_qr_code_icon.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\qr_code_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_admin_schedule_detail.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\admin_schedule_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_qr_image_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\qr_image_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_student_class_schedule.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\student_class_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_circle_count_bg.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\circle_count_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_student_attendance_checker.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\student_attendance_checker.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_qr_scanner_frame.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\qr_scanner_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_bg_calendar_day_normal.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\bg_calendar_day_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_progress_bar_custom.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\progress_bar_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_book.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_camera2.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_camera2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_calendar_day_selected.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\calendar_day_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_circle_white_bg.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\circle_white_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_qr_display.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\qr_display.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_badge_green_bg.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\badge_green_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_nav_button_inactive.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\nav_button_inactive.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_room_badge_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\room_badge_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_default_profile.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\default_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_chart.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_circle_back_bg.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\circle_back_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_glass_nav_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\glass_nav_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_circle_blue_bg.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\circle_blue_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_menu_navbar.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_menu_navbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_student.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\student.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_spinner_dropdown_item.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_teacher_avatar.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\teacher_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_mini_progress_bar.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\mini_progress_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_view_teachers.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\view_teachers.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_activity_subject_detailed_attendance.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\activity_subject_detailed_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_location.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\location.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_dropdown_item.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_teacher_mark_attendance.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\teacher_mark_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_content_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\content_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_home_outline.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_home_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_welcome_page.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\welcome_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_admin_teacher_detail.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\admin_teacher_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_schedule.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_schedule.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_schedule.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_nav_button_active.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\nav_button_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_phone.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_button_background_white2.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\button_background_white2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_student_dashboard.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\student_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ultra_glass_nav_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ultra_glass_nav_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_spinner_item_dark.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\spinner_item_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_lab.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_lab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_filter.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_filter.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_spinner_popup_bg.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\spinner_popup_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\font_cascadiacode.ttf.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\font\\cascadiacode.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_school.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\school.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_schedule_time.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_schedule_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_avatar2.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\avatar2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_attendance_history.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_attendance_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_admin_create_student.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\admin_create_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_tag_background_blue.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\tag_background_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_admin_view_teachers.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\admin_view_teachers.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_admin_avatar.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_admin_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_camera_alt.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_camera_alt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_woman.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\woman.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_scan_button_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\scan_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_boy.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\boy.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_primary_button_selector.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\primary_button_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\mipmap-xxxhdpi_logo1.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\mipmap-xxxhdpi\\logo1.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_schedule_to_student.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_schedule_to_student.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_button_gradient.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\button_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_admin_add_schedule_to_student.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\admin_add_schedule_to_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_scanner_frame.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\scanner_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_secondary_button_bg.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\secondary_button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_blur_backdrop.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\blur_backdrop.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_menu_filled.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_menu_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_time.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_time.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_admin.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_admin.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_circle_button_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\circle_button_background.xml"
+    },
+    {
+        "merged": "com.nibm.attendancetracker.app-debug-51:/layout_qr_display.xml.flat",
+        "source": "com.nibm.attendancetracker.app-main-53:/layout/qr_display.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_subject_to_teachers.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\subject_to_teachers.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_arrow_forward.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_arrow_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_avatar1.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\avatar1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_spinner_dropdown_item_dark.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\spinner_dropdown_item_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_normal_day_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\normal_day_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_flash_on.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_flash_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_school.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_school.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_chat.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_woman2.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\woman2.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_blue_indicator.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\blue_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_bell.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_bell.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_admin_student_detail.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\admin_student_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_scanner.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\scanner.png"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_face_detection_overlay.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\face_detection_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_subject.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_subject.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\layout_item_subject_schedule.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\layout\\item_subject_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_profile_background.xml.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\profile_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-debug-51:\\drawable_ic_department.png.flat",
+        "source": "C:\\Users\\Chanul Liyanage\\.gradle\\daemon\\8.11.1\\com.nibm.attendancetracker.app-main-53:\\drawable\\ic_department.png"
+    }
+]

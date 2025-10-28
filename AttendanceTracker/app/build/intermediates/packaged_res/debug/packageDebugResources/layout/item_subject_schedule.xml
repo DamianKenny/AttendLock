@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@color/background_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Subject Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/tv_subject_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject 1"
+                android:textColor="@color/text_light"
+                android:textSize="16sp"
+                android:fontFamily="@font/cascadiacode"
+                android:textStyle="bold"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/btn_remove_subject"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_close"
+                android:background="@drawable/category_button_inactive"
+                android:padding="8dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackgroundBorderless" />
+
+        </LinearLayout>
+
+        <!-- Subject Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject Name"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:fontFamily="@font/cascadiacode"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/et_subject_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter subject name"
+            android:textColor="@color/text_light"
+            android:textColorHint="@color/text_secondary"
+            android:textSize="16sp"
+            android:fontFamily="@font/cascadiacode"
+            android:background="@drawable/edit_text_bg"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="text" />
+
+        <!-- Total Classes & Credits Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginEnd="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Classes"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/et_total_classes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Classes"
+                    android:textColor="@color/text_light"
+                    android:textColorHint="@color/text_secondary"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:background="@drawable/edit_text_bg"
+                    android:padding="12dp"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Credits"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/et_credits"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Credits"
+                    android:textColor="@color/text_light"
+                    android:textColorHint="@color/text_secondary"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:background="@drawable/edit_text_bg"
+                    android:padding="12dp"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Lecture Schedule Header with Add Button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="1dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Lecture Schedule"
+                android:textColor="@color/text_light"
+                android:textSize="14sp"
+                android:fontFamily="@font/cascadiacode"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/btn_add_lecture"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_add"
+                android:background="@drawable/category_button_active_blue"
+                android:padding="8dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackgroundBorderless" />
+
+        </LinearLayout>
+
+        <!-- Lecture Times Container -->
+        <LinearLayout
+            android:id="@+id/lecture_times_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="_device_class_phone" />
+      </config>
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/calendar_day_selected.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/circle_profile_bg.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/circular_progress_bar.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/normal_day_background.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/selected_day_background.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/today_background.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_subject_detailed_attendance.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/admin_create_schedule.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/admin_create_student.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/admin_create_subject.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/admin_create_teacher.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/admin_dashboard.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/admin_edit_student.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/admin_edit_teacher.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/admin_schedule_detail.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/admin_student_detail.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/admin_teacher_detail.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/admin_view_schedules.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/admin_view_students.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/admin_view_teachers.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/attendance_history.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/bottom_sheet_image_picker.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/class_schedule_card.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/dropdown_item.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/face_scan_location.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_attendance_history.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_lecture_time_display.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_mark_attendance.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_schedule.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_schedule_time.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_student.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_student_attendance.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_student_checkbox.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_student_search.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_subject.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_subject_attendance.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_subject_chip.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_teacher.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_upcoming_class.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/login_page.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/qr_display.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/qr_scanner.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/signup_page.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/spinner_dropdown_item.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/spinner_item.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/student_attendance_checker.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/student_class_schedule.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/student_dashboard.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/subject_to_teachers.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/teacher_dashboard.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/teacher_mark_attendance.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/teacher_qr_attendance.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/teacher_view_student_attendance.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/user_profile.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/user_profile_teacher.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/welcome_page.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/xml/file_paths.xml">
+        <config>
+          <theme>@style/Theme.AttendanceTracker</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65de9309-e63b-45ba-81f2-ac5459dc838d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Chanul Liyanage\.android\avd\Medium_Phone.avd)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AttendanceTracker" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="31B48YoDaRu6IEGE7BkOeCBaNca" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;ApkExportedModule&quot;: &quot;AttendanceTracker.app&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Damian kenny/AndroidStudioProjects/AttendanceTracker/app/src/main/res/mipmap-xxxhdpi&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Work/NIBM/NIBM Second Year (HDNSE 24.2F)/Final Project 24.2/Application/Kenny's Work/AttendanceTracker/AttendanceTracker/app/src/main/res/layout&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\res\layout" />
+      <recent name="D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\java\com\nibm\attendancetracker\teacher" />
+      <recent name="D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\java\com\nibm\attendancetracker\models" />
+      <recent name="D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\java\com\nibm\attendancetracker\common" />
+      <recent name="D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\java\com\nibm\attendancetracker\admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\java\com\nibm\attendancetracker\teacher" />
+      <recent name="D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\java\com\nibm\attendancetracker\common" />
+      <recent name="D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app" />
+      <recent name="C:\Users\Damian kenny\AndroidStudioProjects\AttendanceTracker\app\src\main\res\drawable" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nibm.attendancetracker.teacher" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="AttendanceTracker.app" />
+      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65de9309-e63b-45ba-81f2-ac5459dc838d" name="Changes" comment="" />
+      <created>1754983973441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754983973441</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.nibm.attendancetracker">
+          <value>
+            <CheckInfo lastCheckTimestamp="1761583862441" />
+          </value>
+        </entry>
+        <entry key="com.nibm.attendancetracker.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1761583862445" />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

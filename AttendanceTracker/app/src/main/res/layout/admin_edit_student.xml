@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="13dp">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_arrow_back"
+                android:background="@drawable/circle_back_bg"
+                android:padding="8dp"
+                android:layout_marginEnd="16dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackgroundBorderless" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Edit Student"
+                android:textColor="@color/text_light"
+                android:textSize="24sp"
+                android:fontFamily="@font/cascadiacode"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Form Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/card_bg">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Personal Information"
+                    android:textColor="@color/text_light"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- First Name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First Name"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/et_first_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter first name"
+                    android:textColor="@color/text_light"
+                    android:textColorHint="@color/text_secondary"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:background="@drawable/edit_text_bg"
+                    android:padding="12dp"
+                    android:layout_marginBottom="16dp"
+                    android:inputType="textPersonName" />
+
+                <!-- Last Name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Last Name"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/et_last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter last name"
+                    android:textColor="@color/text_light"
+                    android:textColorHint="@color/text_secondary"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:background="@drawable/edit_text_bg"
+                    android:padding="12dp"
+                    android:layout_marginBottom="16dp"
+                    android:inputType="textPersonName" />
+
+                <!-- Email -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/et_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter email"
+                    android:textColor="@color/text_light"
+                    android:textColorHint="@color/text_secondary"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:background="@drawable/edit_text_bg"
+                    android:padding="12dp"
+                    android:layout_marginBottom="16dp"
+                    android:inputType="textEmailAddress" />
+
+                <!-- Phone -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/et_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter phone number"
+                    android:textColor="@color/text_light"
+                    android:textColorHint="@color/text_secondary"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:background="@drawable/edit_text_bg"
+                    android:padding="12dp"
+                    android:layout_marginBottom="16dp"
+                    android:inputType="phone" />
+
+                <!-- Date of Birth -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date of Birth"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/et_dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="DD/MM/YYYY"
+                    android:textColor="@color/text_light"
+                    android:textColorHint="@color/text_secondary"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:background="@drawable/edit_text_bg"
+                    android:padding="12dp"
+                    android:layout_marginBottom="16dp"
+                    android:inputType="date"
+                    android:focusable="false"
+                    android:clickable="true" />
+
+                <!-- Gender -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:layout_marginBottom="4dp" />
+
+                <Spinner
+                    android:id="@+id/spinner_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_bg"
+                    android:padding="12dp"
+                    android:layout_marginBottom="16dp"
+                    android:minHeight="48dp" />
+
+                <!-- Address -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/et_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter address"
+                    android:textColor="@color/text_light"
+                    android:textColorHint="@color/text_secondary"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:background="@drawable/edit_text_bg"
+                    android:padding="12dp"
+                    android:inputType="textMultiLine"
+                    android:minLines="2" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Academic Information Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/card_bg">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Academic Information"
+                    android:textColor="@color/text_light"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Programme -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Programme"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/et_programme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter programme"
+                    android:textColor="@color/text_light"
+                    android:textColorHint="@color/text_secondary"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:background="@drawable/edit_text_bg"
+                    android:padding="12dp"
+                    android:layout_marginBottom="16dp"
+                    android:inputType="text" />
+
+                <!-- Faculty -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Faculty"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/et_faculty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter faculty"
+                    android:textColor="@color/text_light"
+                    android:textColorHint="@color/text_secondary"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:background="@drawable/edit_text_bg"
+                    android:padding="12dp"
+                    android:layout_marginBottom="16dp"
+                    android:inputType="text" />
+
+                <!-- Batch -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Batch"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/et_batch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter batch"
+                    android:textColor="@color/text_light"
+                    android:textColorHint="@color/text_secondary"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:background="@drawable/edit_text_bg"
+                    android:padding="12dp"
+                    android:layout_marginBottom="16dp"
+                    android:inputType="text" />
+
+                <!-- Admission Date -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Admission Date"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/et_admission_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="DD/MM/YYYY"
+                    android:textColor="@color/text_light"
+                    android:textColorHint="@color/text_secondary"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:background="@drawable/edit_text_bg"
+                    android:padding="12dp"
+                    android:inputType="date"
+                    android:focusable="false"
+                    android:clickable="true" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Parent Information Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/card_bg">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Parent/Guardian Information"
+                    android:textColor="@color/text_light"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Parent Name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Parent/Guardian Name"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/et_parent_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter parent/guardian name"
+                    android:textColor="@color/text_light"
+                    android:textColorHint="@color/text_secondary"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:background="@drawable/edit_text_bg"
+                    android:padding="12dp"
+                    android:layout_marginBottom="16dp"
+                    android:inputType="textPersonName" />
+
+                <!-- Parent Email -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Parent/Guardian Email"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:layout_marginBottom="4dp" />
+
+                <EditText
+                    android:id="@+id/et_parent_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter parent/guardian email"
+                    android:textColor="@color/text_light"
+                    android:textColorHint="@color/text_secondary"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cascadiacode"
+                    android:background="@drawable/edit_text_bg"
+                    android:padding="12dp"
+                    android:inputType="textEmailAddress" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Save Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_save"
+            android:layout_width="380dp"
+            android:layout_height="69dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/button_background_white"
+            app:backgroundTint="@null"
+            android:fontFamily="@font/cascadiacode"
+            android:text="Save Student Details"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

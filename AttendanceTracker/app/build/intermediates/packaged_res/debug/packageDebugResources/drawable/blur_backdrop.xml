@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Multiple blur simulation layers -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#03000000"
+                android:endColor="#08FFFFFF"
+                android:angle="90" />
+        </shape>
+    </item>
+
+    <!-- Frosted glass effect -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#05FFFFFF" />
+        </shape>
+    </item>
+</layer-list>

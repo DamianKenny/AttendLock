@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Attendance Recorder</string>
+
+    <!-- Login Activity -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="to_attendance_recorder">to Attendance Recorder</string>
+    <string name="email_hint">E-mail</string>
+    <string name="password_hint">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="log_in">Log In</string>
+    <string name="logging_in">Logging in...</string>
+    <string name="new_to_app">New to Attendance Recorder? </string>
+    <string name="sign_up">Sign up</string>
+
+    <!-- Sign Up Activity -->
+    <string name="create_account">Create Account</string>
+    <string name="join_attendance_recorder">Join Attendance Recorder</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="creating_account">Creating Account...</string>
+    <string name="already_have_account">Already have an account? </string>
+    <string name="log_in_link">Log in</string>
+
+    <!-- Validation Messages -->
+    <string name="email_required">Email is required</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="password_required">Password is required</string>
+    <string name="password_length">Password must be at least 6 characters</string>
+    <string name="password_strength">Password must contain at least one uppercase letter, one lowercase letter, and one number</string>
+    <string name="passwords_not_match">Passwords do not match</string>
+    <string name="name_required">Full name is required</string>
+    <string name="invalid_name">Please enter a valid name</string>
+    <string name="phone_required">Phone number is required</string>
+    <string name="invalid_phone">Please enter a valid phone number</string>
+    <string name="confirm_password_required">Please confirm your password</string>
+
+    <!-- Messages -->
+    <string name="login_successful">Login successful!</string>
+    <string name="invalid_credentials">Invalid email or password</string>
+    <string name="account_created">Account created successfully!</string>
+    <string name="enter_email_first">Please enter your email first</string>
+    <string name="reset_link_sent">Password reset link sent to %s</string>
+
+    <!-- Demo credentials message -->
+    <string name="demo_credentials">Demo: email = demo@demo.com, password = demo123</string>
+</resources>

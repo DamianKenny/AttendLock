@@ -1,0 +1,817 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nibm.attendancetracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- ===== Permissions ===== -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:7:5-79
+13-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:8:5-65
+14-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:8:22-62
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:9:5-80
+15-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:9:22-77
+16    <uses-permission
+16-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:10:5-11:38
+17        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+17-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:10:22-78
+18        android:maxSdkVersion="28" />
+18-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:11:9-35
+19    <uses-permission android:name="android.permission.ACCESS_RENDER_SCRIPT" />
+19-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:12:5-79
+19-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:12:22-76
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:13:5-79
+20-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:13:22-76
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:14:5-81
+21-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:14:22-78
+22
+23    <!-- ===== Hardware Features ===== -->
+24    <uses-feature
+24-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:17:5-19:36
+25        android:name="android.hardware.camera"
+25-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:18:9-47
+26        android:required="false" />
+26-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:19:9-33
+27    <uses-feature
+27-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:20:5-22:36
+28        android:name="android.hardware.camera.autofocus"
+28-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:21:9-57
+29        android:required="false" />
+29-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:22:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+31        android:name="android.hardware.camera.front"
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+32        android:required="false" />
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+34        android:name="android.hardware.camera.flash"
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+35        android:required="false" />
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+36    <uses-feature
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+37        android:name="android.hardware.screen.landscape"
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+38        android:required="false" />
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+39    <uses-feature
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+40        android:name="android.hardware.wifi"
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+41        android:required="false" />
+41-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+42
+43    <uses-permission android:name="android.permission.WAKE_LOCK" />
+43-->[com.google.android.gms:play-services-measurement-api:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\485f0f441982cf697b9a6cb25be99dcf\transformed\play-services-measurement-api-22.0.0\AndroidManifest.xml:24:5-68
+43-->[com.google.android.gms:play-services-measurement-api:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\485f0f441982cf697b9a6cb25be99dcf\transformed\play-services-measurement-api-22.0.0\AndroidManifest.xml:24:22-65
+44    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+44-->[com.google.android.gms:play-services-measurement-api:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\485f0f441982cf697b9a6cb25be99dcf\transformed\play-services-measurement-api-22.0.0\AndroidManifest.xml:25:5-79
+44-->[com.google.android.gms:play-services-measurement-api:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\485f0f441982cf697b9a6cb25be99dcf\transformed\play-services-measurement-api-22.0.0\AndroidManifest.xml:25:22-76
+45    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+45-->[com.google.android.gms:play-services-measurement-api:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\485f0f441982cf697b9a6cb25be99dcf\transformed\play-services-measurement-api-22.0.0\AndroidManifest.xml:26:5-88
+45-->[com.google.android.gms:play-services-measurement-api:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\485f0f441982cf697b9a6cb25be99dcf\transformed\play-services-measurement-api-22.0.0\AndroidManifest.xml:26:22-85
+46    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+46-->[com.google.android.gms:play-services-measurement-api:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\485f0f441982cf697b9a6cb25be99dcf\transformed\play-services-measurement-api-22.0.0\AndroidManifest.xml:27:5-82
+46-->[com.google.android.gms:play-services-measurement-api:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\485f0f441982cf697b9a6cb25be99dcf\transformed\play-services-measurement-api-22.0.0\AndroidManifest.xml:27:22-79
+47    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+47-->[com.google.android.gms:play-services-measurement:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\89fe8a51b21c375b4e389590df5f7574\transformed\play-services-measurement-22.0.0\AndroidManifest.xml:26:5-110
+47-->[com.google.android.gms:play-services-measurement:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\89fe8a51b21c375b4e389590df5f7574\transformed\play-services-measurement-22.0.0\AndroidManifest.xml:26:22-107
+48    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+48-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\33ae6d8b96daa3455c2f25a123defa21\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+48-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\33ae6d8b96daa3455c2f25a123defa21\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+49
+50    <permission
+50-->[androidx.core:core:1.13.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\a6f69e1257fafc1b35218b21fe34a629\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+51        android:name="com.nibm.attendancetracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+51-->[androidx.core:core:1.13.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\a6f69e1257fafc1b35218b21fe34a629\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+52        android:protectionLevel="signature" />
+52-->[androidx.core:core:1.13.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\a6f69e1257fafc1b35218b21fe34a629\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+53
+54    <uses-permission android:name="com.nibm.attendancetracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+54-->[androidx.core:core:1.13.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\a6f69e1257fafc1b35218b21fe34a629\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+54-->[androidx.core:core:1.13.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\a6f69e1257fafc1b35218b21fe34a629\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+55    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+56
+57    <application
+57-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:24:5-180:19
+58        android:allowBackup="true"
+58-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:25:9-35
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.13.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\a6f69e1257fafc1b35218b21fe34a629\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+60        android:dataExtractionRules="@xml/data_extraction_rules"
+60-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:26:9-65
+61        android:debuggable="true"
+62        android:extractNativeLibs="false"
+63        android:fullBackupContent="@xml/backup_rules"
+63-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:27:9-54
+64        android:icon="@mipmap/logo1"
+64-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:28:9-37
+65        android:label="@string/app_name"
+65-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:29:9-41
+66        android:roundIcon="@mipmap/logo1"
+66-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:30:9-42
+67        android:supportsRtl="true"
+67-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:31:9-35
+68        android:testOnly="true"
+69        android:theme="@style/Theme.AttendanceTracker" >
+69-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:32:9-55
+70
+71        <!-- ===== Common Activities ===== -->
+72        <activity
+72-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:36:9-45:20
+73            android:name="com.nibm.attendancetracker.common.LoginActivity"
+73-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:37:13-49
+74            android:exported="true"
+74-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:38:13-36
+75            android:screenOrientation="portrait"
+75-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:39:13-49
+76            android:windowSoftInputMode="adjustResize|stateHidden" >
+76-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:40:13-67
+77            <intent-filter>
+77-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:41:13-44:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:42:17-69
+78-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:42:25-66
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:43:17-77
+80-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:43:27-74
+81            </intent-filter>
+82        </activity>
+83        <activity
+83-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:47:9-51:47
+84            android:name="com.nibm.attendancetracker.common.SubjectDetailedAttendanceActivity"
+84-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:48:13-69
+85            android:exported="false"
+85-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:49:13-37
+86            android:theme="@style/AppTheme"
+86-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:51:13-44
+87            android:windowSoftInputMode="adjustResize" />
+87-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:50:13-55
+88
+89        <!-- ===== Admin Module ===== -->
+90        <activity
+90-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:54:9-58:47
+91            android:name="com.nibm.attendancetracker.admin.AddScheduleToStudentActivity"
+91-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:55:13-63
+92            android:exported="false"
+92-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:56:13-37
+93            android:theme="@style/AppTheme"
+93-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:58:13-44
+94            android:windowSoftInputMode="adjustResize" />
+94-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:57:13-55
+95        <activity
+95-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:59:9-63:47
+96            android:name="com.nibm.attendancetracker.admin.AddSubjectsToTeacherActivity"
+96-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:60:13-63
+97            android:exported="false"
+97-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:61:13-37
+98            android:theme="@style/AppTheme"
+98-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:63:13-44
+99            android:windowSoftInputMode="adjustResize" />
+99-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:62:13-55
+100        <activity
+100-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:64:9-67:47
+101            android:name="com.nibm.attendancetracker.admin.AdminDashboardActivity"
+101-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:65:13-57
+102            android:exported="false"
+102-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:66:13-37
+103            android:theme="@style/AppTheme" />
+103-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:67:13-44
+104        <activity
+104-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:68:9-72:47
+105            android:name="com.nibm.attendancetracker.admin.CreateScheduleActivity"
+105-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:69:13-57
+106            android:exported="false"
+106-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:70:13-37
+107            android:theme="@style/AppTheme"
+107-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:72:13-44
+108            android:windowSoftInputMode="adjustResize" />
+108-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:71:13-55
+109        <activity
+109-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:73:9-77:47
+110            android:name="com.nibm.attendancetracker.admin.CreateStudentActivity"
+110-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:74:13-56
+111            android:exported="false"
+111-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:75:13-37
+112            android:theme="@style/AppTheme"
+112-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:77:13-44
+113            android:windowSoftInputMode="adjustResize" />
+113-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:76:13-55
+114        <activity
+114-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:78:9-82:47
+115            android:name="com.nibm.attendancetracker.admin.CreateSubjectActivity"
+115-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:79:13-56
+116            android:exported="false"
+116-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:80:13-37
+117            android:theme="@style/AppTheme"
+117-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:82:13-44
+118            android:windowSoftInputMode="adjustResize" />
+118-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:81:13-55
+119        <activity
+119-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:83:9-87:47
+120            android:name="com.nibm.attendancetracker.admin.CreateTeacherActivity"
+120-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:84:13-56
+121            android:exported="false"
+121-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:85:13-37
+122            android:theme="@style/AppTheme"
+122-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:87:13-44
+123            android:windowSoftInputMode="adjustResize" />
+123-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:86:13-55
+124        <activity
+124-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:88:9-92:47
+125            android:name="com.nibm.attendancetracker.admin.EditStudentActivity"
+125-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:89:13-54
+126            android:exported="false"
+126-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:90:13-37
+127            android:theme="@style/AppTheme"
+127-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:92:13-44
+128            android:windowSoftInputMode="adjustResize" />
+128-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:91:13-55
+129        <activity
+129-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:93:9-97:47
+130            android:name="com.nibm.attendancetracker.admin.EditTeacherActivity"
+130-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:94:13-54
+131            android:exported="false"
+131-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:95:13-37
+132            android:theme="@style/AppTheme"
+132-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:97:13-44
+133            android:windowSoftInputMode="adjustResize" />
+133-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:96:13-55
+134        <activity
+134-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:98:9-101:47
+135            android:name="com.nibm.attendancetracker.admin.ScheduleDetailActivity"
+135-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:99:13-57
+136            android:exported="false"
+136-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:100:13-37
+137            android:theme="@style/AppTheme" />
+137-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:101:13-44
+138        <activity
+138-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:102:9-105:47
+139            android:name="com.nibm.attendancetracker.admin.StudentDetailActivity"
+139-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:103:13-56
+140            android:exported="false"
+140-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:104:13-37
+141            android:theme="@style/AppTheme" />
+141-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:105:13-44
+142        <activity
+142-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:106:9-109:47
+143            android:name="com.nibm.attendancetracker.admin.TeacherDetailActivity"
+143-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:107:13-56
+144            android:exported="false"
+144-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:108:13-37
+145            android:theme="@style/AppTheme" />
+145-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:109:13-44
+146        <activity
+146-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:110:9-113:47
+147            android:name="com.nibm.attendancetracker.admin.ViewScheduleActivity"
+147-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:111:13-55
+148            android:exported="false"
+148-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:112:13-37
+149            android:theme="@style/AppTheme" />
+149-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:113:13-44
+150        <activity
+150-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:114:9-117:47
+151            android:name="com.nibm.attendancetracker.admin.ViewStudentsActivity"
+151-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:115:13-55
+152            android:exported="false"
+152-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:116:13-37
+153            android:theme="@style/AppTheme" />
+153-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:117:13-44
+154        <activity
+154-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:118:9-121:47
+155            android:name="com.nibm.attendancetracker.admin.ViewTeachersActivity"
+155-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:119:13-55
+156            android:exported="false"
+156-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:120:13-37
+157            android:theme="@style/AppTheme" />
+157-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:121:13-44
+158
+159        <!-- ===== Student Module ===== -->
+160        <activity
+160-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:124:9-127:47
+161            android:name="com.nibm.attendancetracker.student.AttendanceHistoryActivity"
+161-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:125:13-62
+162            android:exported="false"
+162-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:126:13-37
+163            android:theme="@style/AppTheme" />
+163-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:127:13-44
+164        <activity
+164-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:128:9-131:47
+165            android:name="com.nibm.attendancetracker.student.ClassScheduleActivity"
+165-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:129:13-58
+166            android:exported="false"
+166-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:130:13-37
+167            android:theme="@style/AppTheme" />
+167-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:131:13-44
+168        <activity
+168-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:132:9-135:72
+169            android:name="com.nibm.attendancetracker.student.FaceScanLocationActivity"
+169-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:133:13-61
+170            android:exported="false"
+170-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:134:13-37
+171            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+171-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:135:13-69
+172        <activity
+172-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:136:9-139:47
+173            android:name="com.nibm.attendancetracker.student.QRScannerActivity"
+173-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:137:13-54
+174            android:exported="false"
+174-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:138:13-37
+175            android:theme="@style/AppTheme" />
+175-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:139:13-44
+176        <activity
+176-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:140:9-143:47
+177            android:name="com.nibm.attendancetracker.student.StudentDashboardActivity"
+177-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:141:13-61
+178            android:exported="false"
+178-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:142:13-37
+179            android:theme="@style/AppTheme" />
+179-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:143:13-44
+180        <activity
+180-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:144:9-148:47
+181            android:name="com.nibm.attendancetracker.student.StudentProfileActivity"
+181-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:145:13-59
+182            android:exported="false"
+182-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:146:13-37
+183            android:theme="@style/AppTheme"
+183-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:148:13-44
+184            android:windowSoftInputMode="adjustResize" />
+184-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:147:13-55
+185
+186        <!-- ===== Teacher Module ===== -->
+187        <activity
+187-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:151:9-154:47
+188            android:name="com.nibm.attendancetracker.teacher.TeacherQRActivity"
+188-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:152:13-54
+189            android:exported="false"
+189-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:153:13-37
+190            android:theme="@style/AppTheme" />
+190-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:154:13-44
+191        <activity
+191-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:155:9-158:47
+192            android:name="com.nibm.attendancetracker.teacher.TeacherViewStudentAttendanceActivity"
+192-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:156:13-73
+193            android:exported="false"
+193-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:157:13-37
+194            android:theme="@style/AppTheme" />
+194-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:158:13-44
+195        <activity
+195-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:159:9-162:47
+196            android:name="com.nibm.attendancetracker.teacher.TeacherDashboardActivity"
+196-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:160:13-61
+197            android:exported="false"
+197-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:161:13-37
+198            android:theme="@style/AppTheme" />
+198-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:162:13-44
+199        <activity
+199-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:163:9-167:47
+200            android:name="com.nibm.attendancetracker.teacher.ProfileTeacherActivity"
+200-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:164:13-59
+201            android:exported="false"
+201-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:165:13-37
+202            android:theme="@style/AppTheme"
+202-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:167:13-44
+203            android:windowSoftInputMode="adjustResize" />
+203-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:166:13-55
+204
+205        <!-- ===== File Provider ===== -->
+206        <provider
+207            android:name="androidx.core.content.FileProvider"
+207-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:171:13-62
+208            android:authorities="com.nibm.attendancetracker.provider"
+208-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:172:13-60
+209            android:exported="false"
+209-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:173:13-37
+210            android:grantUriPermissions="true" >
+210-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:174:13-47
+211            <meta-data
+211-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:175:13-177:54
+212                android:name="android.support.FILE_PROVIDER_PATHS"
+212-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:176:17-67
+213                android:resource="@xml/file_paths" />
+213-->D:\Work\NIBM\NIBM Second Year (HDNSE 24.2F)\Final Project 24.2\Application\Kenny's Work\AttendanceTracker\AttendanceTracker\app\src\main\AndroidManifest.xml:177:17-51
+214        </provider>
+215
+216        <service
+216-->[androidx.camera:camera-camera2:1.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\133f7ebd937bee29e3386aa23fa41fc0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:24:9-33:19
+217            android:name="androidx.camera.core.impl.MetadataHolderService"
+217-->[androidx.camera:camera-camera2:1.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\133f7ebd937bee29e3386aa23fa41fc0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:25:13-75
+218            android:enabled="false"
+218-->[androidx.camera:camera-camera2:1.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\133f7ebd937bee29e3386aa23fa41fc0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:26:13-36
+219            android:exported="false" >
+219-->[androidx.camera:camera-camera2:1.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\133f7ebd937bee29e3386aa23fa41fc0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:27:13-37
+220            <meta-data
+220-->[androidx.camera:camera-camera2:1.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\133f7ebd937bee29e3386aa23fa41fc0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:30:13-32:89
+221                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+221-->[androidx.camera:camera-camera2:1.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\133f7ebd937bee29e3386aa23fa41fc0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:31:17-103
+222                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+222-->[androidx.camera:camera-camera2:1.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\133f7ebd937bee29e3386aa23fa41fc0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:32:17-86
+223        </service>
+224        <service
+224-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\fd1ddd123c223f8f4148660b097f857a\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:9:9-15:19
+225            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+225-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\fd1ddd123c223f8f4148660b097f857a\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:10:13-91
+226            android:directBootAware="true"
+226-->[com.google.mlkit:common:18.10.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\95740f2cb71bdf2a6759bb131ebfd11a\transformed\common-18.10.0\AndroidManifest.xml:17:13-43
+227            android:exported="false" >
+227-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\fd1ddd123c223f8f4148660b097f857a\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:11:13-37
+228            <meta-data
+228-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\fd1ddd123c223f8f4148660b097f857a\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:12:13-14:85
+229                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+229-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\fd1ddd123c223f8f4148660b097f857a\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:13:17-114
+230                android:value="com.google.firebase.components.ComponentRegistrar" />
+230-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\fd1ddd123c223f8f4148660b097f857a\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:14:17-82
+231            <meta-data
+231-->[com.google.mlkit:vision-common:17.2.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\8a177f1d6e259bee029d385960a7cf32\transformed\vision-common-17.2.0\AndroidManifest.xml:12:13-14:85
+232                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+232-->[com.google.mlkit:vision-common:17.2.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\8a177f1d6e259bee029d385960a7cf32\transformed\vision-common-17.2.0\AndroidManifest.xml:13:17-124
+233                android:value="com.google.firebase.components.ComponentRegistrar" />
+233-->[com.google.mlkit:vision-common:17.2.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\8a177f1d6e259bee029d385960a7cf32\transformed\vision-common-17.2.0\AndroidManifest.xml:14:17-82
+234            <meta-data
+234-->[com.google.mlkit:common:18.10.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\95740f2cb71bdf2a6759bb131ebfd11a\transformed\common-18.10.0\AndroidManifest.xml:20:13-22:85
+235                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+235-->[com.google.mlkit:common:18.10.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\95740f2cb71bdf2a6759bb131ebfd11a\transformed\common-18.10.0\AndroidManifest.xml:21:17-120
+236                android:value="com.google.firebase.components.ComponentRegistrar" />
+236-->[com.google.mlkit:common:18.10.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\95740f2cb71bdf2a6759bb131ebfd11a\transformed\common-18.10.0\AndroidManifest.xml:22:17-82
+237        </service>
+238
+239        <provider
+239-->[com.google.mlkit:common:18.10.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\95740f2cb71bdf2a6759bb131ebfd11a\transformed\common-18.10.0\AndroidManifest.xml:9:9-13:38
+240            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+240-->[com.google.mlkit:common:18.10.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\95740f2cb71bdf2a6759bb131ebfd11a\transformed\common-18.10.0\AndroidManifest.xml:10:13-78
+241            android:authorities="com.nibm.attendancetracker.mlkitinitprovider"
+241-->[com.google.mlkit:common:18.10.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\95740f2cb71bdf2a6759bb131ebfd11a\transformed\common-18.10.0\AndroidManifest.xml:11:13-69
+242            android:exported="false"
+242-->[com.google.mlkit:common:18.10.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\95740f2cb71bdf2a6759bb131ebfd11a\transformed\common-18.10.0\AndroidManifest.xml:12:13-37
+243            android:initOrder="99" />
+243-->[com.google.mlkit:common:18.10.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\95740f2cb71bdf2a6759bb131ebfd11a\transformed\common-18.10.0\AndroidManifest.xml:13:13-35
+244
+245        <activity
+245-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+246            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+246-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+247            android:clearTaskOnLaunch="true"
+247-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+248            android:screenOrientation="sensorLandscape"
+248-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+249            android:stateNotNeeded="true"
+249-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+250            android:theme="@style/zxing_CaptureTheme"
+250-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+251            android:windowSoftInputMode="stateAlwaysHidden" />
+251-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\857a8f5aa0832b4a658958dc94586f72\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+252
+253        <service
+253-->[com.google.firebase:firebase-firestore:26.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6a2b6f8bd6e204b12cd806b167c40e30\transformed\firebase-firestore-26.0.1\AndroidManifest.xml:14:9-23:19
+254            android:name="com.google.firebase.components.ComponentDiscoveryService"
+254-->[com.google.firebase:firebase-firestore:26.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6a2b6f8bd6e204b12cd806b167c40e30\transformed\firebase-firestore-26.0.1\AndroidManifest.xml:15:13-84
+255            android:directBootAware="true"
+255-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\c82f7cfa8bc8aff0826c2f2cc3f2be1f\transformed\firebase-common-22.0.1\AndroidManifest.xml:32:13-43
+256            android:exported="false" >
+256-->[com.google.firebase:firebase-firestore:26.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6a2b6f8bd6e204b12cd806b167c40e30\transformed\firebase-firestore-26.0.1\AndroidManifest.xml:16:13-37
+257            <meta-data
+257-->[com.google.firebase:firebase-firestore:26.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6a2b6f8bd6e204b12cd806b167c40e30\transformed\firebase-firestore-26.0.1\AndroidManifest.xml:17:13-19:85
+258                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+258-->[com.google.firebase:firebase-firestore:26.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6a2b6f8bd6e204b12cd806b167c40e30\transformed\firebase-firestore-26.0.1\AndroidManifest.xml:18:17-122
+259                android:value="com.google.firebase.components.ComponentRegistrar" />
+259-->[com.google.firebase:firebase-firestore:26.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6a2b6f8bd6e204b12cd806b167c40e30\transformed\firebase-firestore-26.0.1\AndroidManifest.xml:19:17-82
+260            <meta-data
+260-->[com.google.firebase:firebase-firestore:26.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6a2b6f8bd6e204b12cd806b167c40e30\transformed\firebase-firestore-26.0.1\AndroidManifest.xml:20:13-22:85
+261                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+261-->[com.google.firebase:firebase-firestore:26.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6a2b6f8bd6e204b12cd806b167c40e30\transformed\firebase-firestore-26.0.1\AndroidManifest.xml:21:17-111
+262                android:value="com.google.firebase.components.ComponentRegistrar" />
+262-->[com.google.firebase:firebase-firestore:26.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6a2b6f8bd6e204b12cd806b167c40e30\transformed\firebase-firestore-26.0.1\AndroidManifest.xml:22:17-82
+263            <meta-data
+263-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\9451daa5bc4e59281c4bc295be8edf59\transformed\firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+264                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+264-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\9451daa5bc4e59281c4bc295be8edf59\transformed\firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+265                android:value="com.google.firebase.components.ComponentRegistrar" />
+265-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\9451daa5bc4e59281c4bc295be8edf59\transformed\firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+266            <meta-data
+266-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\9451daa5bc4e59281c4bc295be8edf59\transformed\firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+267                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+267-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\9451daa5bc4e59281c4bc295be8edf59\transformed\firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+268                android:value="com.google.firebase.components.ComponentRegistrar" />
+268-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\9451daa5bc4e59281c4bc295be8edf59\transformed\firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+269            <meta-data
+269-->[com.google.android.gms:play-services-measurement-api:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\485f0f441982cf697b9a6cb25be99dcf\transformed\play-services-measurement-api-22.0.0\AndroidManifest.xml:37:13-39:85
+270                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+270-->[com.google.android.gms:play-services-measurement-api:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\485f0f441982cf697b9a6cb25be99dcf\transformed\play-services-measurement-api-22.0.0\AndroidManifest.xml:38:17-139
+271                android:value="com.google.firebase.components.ComponentRegistrar" />
+271-->[com.google.android.gms:play-services-measurement-api:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\485f0f441982cf697b9a6cb25be99dcf\transformed\play-services-measurement-api-22.0.0\AndroidManifest.xml:39:17-82
+272            <meta-data
+272-->[com.google.firebase:firebase-ml-modeldownloader:24.2.2] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\92faaa459bdcd629fb77ac4e0898f53e\transformed\firebase-ml-modeldownloader-24.2.2\AndroidManifest.xml:26:13-28:85
+273                android:name="com.google.firebase.components:com.google.firebase.ml.modeldownloader.FirebaseMlModelDownloaderKtxRegistrar"
+273-->[com.google.firebase:firebase-ml-modeldownloader:24.2.2] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\92faaa459bdcd629fb77ac4e0898f53e\transformed\firebase-ml-modeldownloader-24.2.2\AndroidManifest.xml:27:17-139
+274                android:value="com.google.firebase.components.ComponentRegistrar" />
+274-->[com.google.firebase:firebase-ml-modeldownloader:24.2.2] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\92faaa459bdcd629fb77ac4e0898f53e\transformed\firebase-ml-modeldownloader-24.2.2\AndroidManifest.xml:28:17-82
+275            <meta-data
+275-->[com.google.firebase:firebase-ml-modeldownloader:24.2.2] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\92faaa459bdcd629fb77ac4e0898f53e\transformed\firebase-ml-modeldownloader-24.2.2\AndroidManifest.xml:29:13-31:85
+276                android:name="com.google.firebase.components:com.google.firebase.ml.modeldownloader.FirebaseModelDownloaderRegistrar"
+276-->[com.google.firebase:firebase-ml-modeldownloader:24.2.2] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\92faaa459bdcd629fb77ac4e0898f53e\transformed\firebase-ml-modeldownloader-24.2.2\AndroidManifest.xml:30:17-134
+277                android:value="com.google.firebase.components.ComponentRegistrar" />
+277-->[com.google.firebase:firebase-ml-modeldownloader:24.2.2] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\92faaa459bdcd629fb77ac4e0898f53e\transformed\firebase-ml-modeldownloader-24.2.2\AndroidManifest.xml:31:17-82
+278            <meta-data
+278-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+279                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+279-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+280                android:value="com.google.firebase.components.ComponentRegistrar" />
+280-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+281            <meta-data
+281-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\d1ea2dd0818b28eb50618aaee931dc99\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:25:13-27:85
+282                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+282-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\d1ea2dd0818b28eb50618aaee931dc99\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:26:17-120
+283                android:value="com.google.firebase.components.ComponentRegistrar" />
+283-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\d1ea2dd0818b28eb50618aaee931dc99\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:27:17-82
+284            <meta-data
+284-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\d1ea2dd0818b28eb50618aaee931dc99\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:28:13-30:85
+285                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+285-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\d1ea2dd0818b28eb50618aaee931dc99\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:29:17-117
+286                android:value="com.google.firebase.components.ComponentRegistrar" />
+286-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\d1ea2dd0818b28eb50618aaee931dc99\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:30:17-82
+287            <meta-data
+287-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0a8ef0fcea4f79da092bc451cb6a399d\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+288                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+288-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0a8ef0fcea4f79da092bc451cb6a399d\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+289                android:value="com.google.firebase.components.ComponentRegistrar" />
+289-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0a8ef0fcea4f79da092bc451cb6a399d\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+290            <meta-data
+290-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0a8ef0fcea4f79da092bc451cb6a399d\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+291                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+291-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0a8ef0fcea4f79da092bc451cb6a399d\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+292                android:value="com.google.firebase.components.ComponentRegistrar" />
+292-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0a8ef0fcea4f79da092bc451cb6a399d\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+293            <meta-data
+293-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\593b0ba5a62e4ec981deabb79eefbae6\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+294                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+294-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\593b0ba5a62e4ec981deabb79eefbae6\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+295                android:value="com.google.firebase.components.ComponentRegistrar" />
+295-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\593b0ba5a62e4ec981deabb79eefbae6\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+296            <meta-data
+296-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\c82f7cfa8bc8aff0826c2f2cc3f2be1f\transformed\firebase-common-22.0.1\AndroidManifest.xml:35:13-37:85
+297                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+297-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\c82f7cfa8bc8aff0826c2f2cc3f2be1f\transformed\firebase-common-22.0.1\AndroidManifest.xml:36:17-109
+298                android:value="com.google.firebase.components.ComponentRegistrar" />
+298-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\c82f7cfa8bc8aff0826c2f2cc3f2be1f\transformed\firebase-common-22.0.1\AndroidManifest.xml:37:17-82
+299            <meta-data
+299-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\ff3371d2b9eb893cb7dc32a4a60f22b1\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
+300                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+300-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\ff3371d2b9eb893cb7dc32a4a60f22b1\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
+301                android:value="com.google.firebase.components.ComponentRegistrar" />
+301-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\ff3371d2b9eb893cb7dc32a4a60f22b1\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
+302        </service>
+303
+304        <property
+304-->[com.google.android.gms:play-services-measurement-api:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\485f0f441982cf697b9a6cb25be99dcf\transformed\play-services-measurement-api-22.0.0\AndroidManifest.xml:30:9-32:61
+305            android:name="android.adservices.AD_SERVICES_CONFIG"
+305-->[com.google.android.gms:play-services-measurement-api:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\485f0f441982cf697b9a6cb25be99dcf\transformed\play-services-measurement-api-22.0.0\AndroidManifest.xml:31:13-65
+306            android:resource="@xml/ga_ad_services_config" />
+306-->[com.google.android.gms:play-services-measurement-api:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\485f0f441982cf697b9a6cb25be99dcf\transformed\play-services-measurement-api-22.0.0\AndroidManifest.xml:32:13-58
+307
+308        <receiver
+308-->[com.google.android.gms:play-services-measurement:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\89fe8a51b21c375b4e389590df5f7574\transformed\play-services-measurement-22.0.0\AndroidManifest.xml:29:9-33:20
+309            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+309-->[com.google.android.gms:play-services-measurement:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\89fe8a51b21c375b4e389590df5f7574\transformed\play-services-measurement-22.0.0\AndroidManifest.xml:30:13-85
+310            android:enabled="true"
+310-->[com.google.android.gms:play-services-measurement:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\89fe8a51b21c375b4e389590df5f7574\transformed\play-services-measurement-22.0.0\AndroidManifest.xml:31:13-35
+311            android:exported="false" >
+311-->[com.google.android.gms:play-services-measurement:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\89fe8a51b21c375b4e389590df5f7574\transformed\play-services-measurement-22.0.0\AndroidManifest.xml:32:13-37
+312        </receiver>
+313
+314        <service
+314-->[com.google.android.gms:play-services-measurement:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\89fe8a51b21c375b4e389590df5f7574\transformed\play-services-measurement-22.0.0\AndroidManifest.xml:35:9-38:40
+315            android:name="com.google.android.gms.measurement.AppMeasurementService"
+315-->[com.google.android.gms:play-services-measurement:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\89fe8a51b21c375b4e389590df5f7574\transformed\play-services-measurement-22.0.0\AndroidManifest.xml:36:13-84
+316            android:enabled="true"
+316-->[com.google.android.gms:play-services-measurement:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\89fe8a51b21c375b4e389590df5f7574\transformed\play-services-measurement-22.0.0\AndroidManifest.xml:37:13-35
+317            android:exported="false" />
+317-->[com.google.android.gms:play-services-measurement:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\89fe8a51b21c375b4e389590df5f7574\transformed\play-services-measurement-22.0.0\AndroidManifest.xml:38:13-37
+318        <service
+318-->[com.google.android.gms:play-services-measurement:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\89fe8a51b21c375b4e389590df5f7574\transformed\play-services-measurement-22.0.0\AndroidManifest.xml:39:9-43:72
+319            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+319-->[com.google.android.gms:play-services-measurement:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\89fe8a51b21c375b4e389590df5f7574\transformed\play-services-measurement-22.0.0\AndroidManifest.xml:40:13-87
+320            android:enabled="true"
+320-->[com.google.android.gms:play-services-measurement:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\89fe8a51b21c375b4e389590df5f7574\transformed\play-services-measurement-22.0.0\AndroidManifest.xml:41:13-35
+321            android:exported="false"
+321-->[com.google.android.gms:play-services-measurement:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\89fe8a51b21c375b4e389590df5f7574\transformed\play-services-measurement-22.0.0\AndroidManifest.xml:42:13-37
+322            android:permission="android.permission.BIND_JOB_SERVICE" />
+322-->[com.google.android.gms:play-services-measurement:22.0.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\89fe8a51b21c375b4e389590df5f7574\transformed\play-services-measurement-22.0.0\AndroidManifest.xml:43:13-69
+323
+324        <uses-library
+324-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\2a29ab60bb77d2d6856e0cb683ee90b5\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+325            android:name="android.ext.adservices"
+325-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\2a29ab60bb77d2d6856e0cb683ee90b5\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+326            android:required="false" />
+326-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\2a29ab60bb77d2d6856e0cb683ee90b5\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+327
+328        <activity
+328-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+329            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+329-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+330            android:excludeFromRecents="true"
+330-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+331            android:exported="true"
+331-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+332            android:launchMode="singleTask"
+332-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+333            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+333-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+334            <intent-filter>
+334-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+335                <action android:name="android.intent.action.VIEW" />
+335-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+335-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+336
+337                <category android:name="android.intent.category.DEFAULT" />
+337-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+337-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+338                <category android:name="android.intent.category.BROWSABLE" />
+338-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+338-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+339
+340                <data
+340-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+341                    android:host="firebase.auth"
+341-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+342                    android:path="/"
+342-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+343                    android:scheme="genericidp" />
+343-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+344            </intent-filter>
+345        </activity>
+346        <activity
+346-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+347            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+347-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+348            android:excludeFromRecents="true"
+348-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+349            android:exported="true"
+349-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+350            android:launchMode="singleTask"
+350-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+351            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+351-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+352            <intent-filter>
+352-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+353                <action android:name="android.intent.action.VIEW" />
+353-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+353-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+354
+355                <category android:name="android.intent.category.DEFAULT" />
+355-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+355-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+356                <category android:name="android.intent.category.BROWSABLE" />
+356-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+356-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+357
+358                <data
+358-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+359                    android:host="firebase.auth"
+359-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+360                    android:path="/"
+360-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+361                    android:scheme="recaptcha" />
+361-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\1d3b12fd0b6f3368a4704969eb75067e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+362            </intent-filter>
+363        </activity>
+364        <activity
+364-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\ef5bba83f76d8205b08d2f52d1888948\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+365            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+365-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\ef5bba83f76d8205b08d2f52d1888948\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+366            android:exported="false"
+366-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\ef5bba83f76d8205b08d2f52d1888948\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+367            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+367-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\ef5bba83f76d8205b08d2f52d1888948\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+368
+369        <provider
+369-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\c82f7cfa8bc8aff0826c2f2cc3f2be1f\transformed\firebase-common-22.0.1\AndroidManifest.xml:23:9-28:39
+370            android:name="com.google.firebase.provider.FirebaseInitProvider"
+370-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\c82f7cfa8bc8aff0826c2f2cc3f2be1f\transformed\firebase-common-22.0.1\AndroidManifest.xml:24:13-77
+371            android:authorities="com.nibm.attendancetracker.firebaseinitprovider"
+371-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\c82f7cfa8bc8aff0826c2f2cc3f2be1f\transformed\firebase-common-22.0.1\AndroidManifest.xml:25:13-72
+372            android:directBootAware="true"
+372-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\c82f7cfa8bc8aff0826c2f2cc3f2be1f\transformed\firebase-common-22.0.1\AndroidManifest.xml:26:13-43
+373            android:exported="false"
+373-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\c82f7cfa8bc8aff0826c2f2cc3f2be1f\transformed\firebase-common-22.0.1\AndroidManifest.xml:27:13-37
+374            android:initOrder="100" />
+374-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\c82f7cfa8bc8aff0826c2f2cc3f2be1f\transformed\firebase-common-22.0.1\AndroidManifest.xml:28:13-36
+375        <provider
+375-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6833512684295c5ffa12625af468f9da\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+376            android:name="androidx.startup.InitializationProvider"
+376-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6833512684295c5ffa12625af468f9da\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+377            android:authorities="com.nibm.attendancetracker.androidx-startup"
+377-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6833512684295c5ffa12625af468f9da\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+378            android:exported="false" >
+378-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6833512684295c5ffa12625af468f9da\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+379            <meta-data
+379-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6833512684295c5ffa12625af468f9da\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+380                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+380-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6833512684295c5ffa12625af468f9da\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+381                android:value="androidx.startup" />
+381-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\6833512684295c5ffa12625af468f9da\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+382            <meta-data
+382-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\adf1370191ba56a8c04ea0a550d41a95\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+383                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+383-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\adf1370191ba56a8c04ea0a550d41a95\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+384                android:value="androidx.startup" />
+384-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\adf1370191ba56a8c04ea0a550d41a95\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+385            <meta-data
+385-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+386                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+386-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+387                android:value="androidx.startup" />
+387-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+388        </provider>
+389
+390        <meta-data
+390-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\b960ebc4d56588a0ef1c7bff71fb8646\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+391            android:name="com.google.android.gms.version"
+391-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\b960ebc4d56588a0ef1c7bff71fb8646\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+392            android:value="@integer/google_play_services_version" />
+392-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\b960ebc4d56588a0ef1c7bff71fb8646\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+393
+394        <receiver
+394-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+395            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+395-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+396            android:directBootAware="false"
+396-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+397            android:enabled="true"
+397-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+398            android:exported="true"
+398-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+399            android:permission="android.permission.DUMP" >
+399-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+400            <intent-filter>
+400-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+401                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+401-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+401-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+402            </intent-filter>
+403            <intent-filter>
+403-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+404                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+404-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+404-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+405            </intent-filter>
+406            <intent-filter>
+406-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+407                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+407-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+407-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+408            </intent-filter>
+409            <intent-filter>
+409-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+410                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+410-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+410-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\0d7d350fd8578e5115c12b22ae530aa7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+411            </intent-filter>
+412        </receiver>
+413
+414        <service
+414-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\f91abfb57eec17efeccee96a1a12eb16\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+415            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+415-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\f91abfb57eec17efeccee96a1a12eb16\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+416            android:exported="false" >
+416-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\f91abfb57eec17efeccee96a1a12eb16\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+417            <meta-data
+417-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\f91abfb57eec17efeccee96a1a12eb16\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+418                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+418-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\f91abfb57eec17efeccee96a1a12eb16\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+419                android:value="cct" />
+419-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\f91abfb57eec17efeccee96a1a12eb16\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+420        </service>
+421        <service
+421-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\7f831556ade921f4310bde9f71bda923\transformed\transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+422            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+422-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\7f831556ade921f4310bde9f71bda923\transformed\transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+423            android:exported="false"
+423-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\7f831556ade921f4310bde9f71bda923\transformed\transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+424            android:permission="android.permission.BIND_JOB_SERVICE" >
+424-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\7f831556ade921f4310bde9f71bda923\transformed\transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+425        </service>
+426
+427        <receiver
+427-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\7f831556ade921f4310bde9f71bda923\transformed\transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+428            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+428-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\7f831556ade921f4310bde9f71bda923\transformed\transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+429            android:exported="false" />
+429-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Chanul Liyanage\.gradle\caches\8.11.1\transforms\7f831556ade921f4310bde9f71bda923\transformed\transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+430    </application>
+431
+432</manifest>

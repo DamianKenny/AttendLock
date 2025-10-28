@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_subject"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:padding="16dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:elevation="4dp"
+    android:background="@color/card_bg"
+    android:radius="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_subject_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Subject Name"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/cascadiacode"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Not Marked"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:alpha="0.8"
+            android:fontFamily="@font/cascadiacode"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:gravity="start">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_present"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="Present"
+                android:textAllCaps="false"
+                android:fontFamily="@font/cascadiacode"
+                android:textSize="12sp"
+                android:background="@drawable/button_background_white2"
+                app:backgroundTint="@null"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_absent"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="Absent"
+                android:textAllCaps="false"
+                android:fontFamily="@font/cascadiacode"
+                android:textSize="12sp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/button_background_white2"
+                app:backgroundTint="@null"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_late"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="Late"
+                android:textAllCaps="false"
+                android:fontFamily="@font/cascadiacode"
+                android:textSize="12sp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/button_background_white2"
+                app:backgroundTint="@null"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
