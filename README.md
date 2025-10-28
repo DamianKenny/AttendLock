@@ -1,43 +1,60 @@
-# AttendLock – Smart Attendance System
-Redefining Attendance with AI, Location Intelligence & Fraud Prevention
+# 📱 AttendLock - Smart Attendance System
 
-**AttendLock** is an Android-based smart attendance app that modernizes attendance tracking with AI, geolocation, and fraud prevention. It tackles major issues like proxy attendance, lack of real-time verification, disorganized records, and manual data errors by verifying both identity and location—ensuring that only students physically present are marked as attended, resulting in accurate, transparent, and trustworthy records.
+## Redefining Attendance with AI, Location Intelligence & Fraud Prevention
 
-🚀 Key Features by Role:
-👩‍💼 Admin:
+**AttendLock** is an Android-based smart attendance app that modernizes attendance tracking with AI, geolocation, and fraud prevention.  
+It tackles major issues like proxy attendance, lack of real-time verification, disorganized records, and manual data errors by verifying both identity and location — ensuring that only students physically present are marked as attended.  
+The result is accurate, transparent, and trustworthy records.
 
-Add and manage students, teachers, and subjects with ease.
+---
 
-Create and assign schedules quickly.
+## Key Features by Role
 
-Access real-time, detailed attendance records.
+### Admin
 
-👨‍🏫 Teacher:
+- Add and manage students, teachers, and subjects with ease.
+- Create and assign schedules quickly.
+- Access real-time, detailed attendance records.
 
-Update personal profiles.
+### Teacher
 
-Generate QR codes for students to mark attendance.
+- Update personal profiles.
+- Generate QR codes for students to mark attendance.
+- Track class attendance effortlessly.
 
-Track class attendance effortlessly.
+### Student
 
-👩‍🎓 Student:
+- View schedules and past attendance records.
+- Update personal profile information.
+- Mark attendance via QR code scan.
+- Verify location with geofencing to ensure correct attendance location.
+- Confirm identity using facial recognition.
 
-View schedules and past attendance records.
+---
 
-Update personal profile information.
+## Tech Stack
 
-Mark attendance via QR code scan.
+- Android Studio (Java)
+- Firebase Firestore & Storage
+- Google Geofencing API
+- FaceNet ML Model (for facial recognition)
+- React.js, Vite
+- Tailwindcss
 
-Verify location with geofencing to ensure the student is in the correct location.
+---
 
-Confirm identity using facial recognition.
+## Application Previews
 
-💡 Tech Stack:
+Add screenshots of your application below:
 
-Android Studio (Java)
+![Student Dashboard Screenshot](../Pictures/Screenshots/Screenshot%202025-10-26%20112621.png)  
+![Teacher Dashboard Screenshot](../Pictures/Screenshots/Screenshot%202025-10-26%20120048.png)  
+![Admin Dashboard Screenshot](../Pictures/Screenshots/Screenshot%202025-10-26%20104245.png)  
+![Attendance Marking Screenshot](../Pictures/Screenshots/Screenshot%202025-10-26%20113153.png)  
+![Admin View Student Screenshot](../Pictures/Screenshots/Screenshot%202025-10-26%20104428.png)
 
-Firebase Firestore Storage
+---
 
-Google Geofencing API
+## Vision
 
-FaceNet ML Model (for facial recognition)
+AttendLock aims to revolutionize academic attendance systems by ensuring fairness, accuracy, and accountability using modern AI-driven solutions.
