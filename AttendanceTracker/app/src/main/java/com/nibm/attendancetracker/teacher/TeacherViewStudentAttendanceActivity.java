@@ -21,6 +21,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.nibm.attendancetracker.R;
+import com.nibm.attendancetracker.common.NavigationHelper;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -38,7 +39,6 @@ public class TeacherViewStudentAttendanceActivity extends AppCompatActivity {
     private TextView tvStudentName, tvStudentId, tvStudentBatch, tvStudentEmail;
     private TextView tvPresentCount, tvAbsentCount, tvLateCount, tvTotalClasses;
     private ProgressBar overallProgressBar, searchProgressBar;
-    private LinearLayout nav_home, nav_documents, nav_chat, nav_menu, nav_profile;
 
     private FirebaseFirestore db;
     private StudentSearchAdapter searchAdapter;
@@ -60,6 +60,10 @@ public class TeacherViewStudentAttendanceActivity extends AppCompatActivity {
 
         initViews();
         setupListeners();
+
+        // Setup navigation with role
+        NavigationHelper.setupNavigation(this, "teacher");
+
         loadAllStudents();
     }
 
@@ -80,12 +84,6 @@ public class TeacherViewStudentAttendanceActivity extends AppCompatActivity {
         tvTotalClasses = findViewById(R.id.tvTotalClasses);
         overallProgressBar = findViewById(R.id.overallProgressBar);
         searchProgressBar = findViewById(R.id.search_progress_bar);
-
-        nav_home = findViewById(R.id.nav_home);
-        nav_documents = findViewById(R.id.nav_documents);
-        nav_chat = findViewById(R.id.nav_chat);
-        nav_menu = findViewById(R.id.nav_menu);
-        nav_profile = findViewById(R.id.nav_profile);
 
         db = FirebaseFirestore.getInstance();
         studentsList = new ArrayList<>();
@@ -116,16 +114,6 @@ public class TeacherViewStudentAttendanceActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable s) {}
         });
-
-        setupNavigation();
-    }
-
-    private void setupNavigation() {
-        nav_home.setOnClickListener(v -> Toast.makeText(this, "Home", Toast.LENGTH_SHORT).show());
-        nav_documents.setOnClickListener(v -> Toast.makeText(this, "Documents", Toast.LENGTH_SHORT).show());
-        nav_chat.setOnClickListener(v -> Toast.makeText(this, "Chat", Toast.LENGTH_SHORT).show());
-        nav_menu.setOnClickListener(v -> Toast.makeText(this, "Menu", Toast.LENGTH_SHORT).show());
-        nav_profile.setOnClickListener(v -> Toast.makeText(this, "Profile", Toast.LENGTH_SHORT).show());
     }
 
     private void loadAllStudents() {
