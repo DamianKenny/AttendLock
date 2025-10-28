@@ -33,7 +33,7 @@
             android:text="Profile"
             android:textColor="@color/background_white"
             android:fontFamily="@font/cascadiacode"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
     </RelativeLayout>
 
@@ -373,34 +373,17 @@
             android:minWidth="100dp">
 
             <ImageView
-                android:id="@+id/home_icon"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/ic_home"
                 android:layout_marginEnd="6dp"
                 app:tint="#FFFFFF" />
 
-            <TextView
-                android:id="@+id/home_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Home"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:fontFamily="sans-serif-medium"
-                android:shadowColor="#40000000"
-                android:shadowDx="0"
-                android:shadowDy="1"
-                android:shadowRadius="2"
-                android:visibility="visible"
-                android:singleLine="true"
-                android:ellipsize="none" />
-
         </LinearLayout>
 
-        <!-- Documents Button -->
+        <!-- Schedule Button -->
         <LinearLayout
-            android:id="@+id/nav_documents"
+            android:id="@+id/nav_second"
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_weight="1"
@@ -412,34 +395,17 @@
             android:minWidth="100dp">
 
             <ImageView
-                android:id="@+id/documents_icon"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:src="@drawable/ic_document"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_schedule3"
                 android:layout_marginEnd="6dp"
                 app:tint="#FFFFFF" />
 
-            <TextView
-                android:id="@+id/documents_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Docs"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:fontFamily="sans-serif-medium"
-                android:shadowColor="#40000000"
-                android:shadowDx="0"
-                android:shadowDy="1"
-                android:shadowRadius="2"
-                android:visibility="gone"
-                android:singleLine="true"
-                android:ellipsize="none" />
-
         </LinearLayout>
 
-        <!-- Chat Button -->
+        <!-- QR Scan Button -->
         <LinearLayout
-            android:id="@+id/nav_chat"
+            android:id="@+id/nav_third"
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_weight="1"
@@ -451,34 +417,17 @@
             android:minWidth="100dp">
 
             <ImageView
-                android:id="@+id/chat_icon"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/ic_qr_code"
                 android:layout_marginEnd="6dp"
                 app:tint="#FFFFFF" />
 
-            <TextView
-                android:id="@+id/chat_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Chat"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:fontFamily="sans-serif-medium"
-                android:shadowColor="#40000000"
-                android:shadowDx="0"
-                android:shadowDy="1"
-                android:shadowRadius="2"
-                android:visibility="gone"
-                android:singleLine="true"
-                android:ellipsize="none" />
-
         </LinearLayout>
 
-        <!-- Menu Button -->
+        <!-- Attendance Button -->
         <LinearLayout
-            android:id="@+id/nav_menu"
+            android:id="@+id/nav_fourth"
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_weight="1"
@@ -490,28 +439,11 @@
             android:minWidth="100dp">
 
             <ImageView
-                android:id="@+id/menu_icon"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:src="@drawable/ic_menu"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_attendance2"
                 android:layout_marginEnd="6dp"
                 app:tint="#FFFFFF" />
-
-            <TextView
-                android:id="@+id/menu_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Menu"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:fontFamily="sans-serif-medium"
-                android:shadowColor="#40000000"
-                android:shadowDx="0"
-                android:shadowDy="1"
-                android:shadowRadius="2"
-                android:visibility="gone"
-                android:singleLine="true"
-                android:ellipsize="none" />
 
         </LinearLayout>
 
@@ -529,28 +461,11 @@
             android:minWidth="100dp">
 
             <ImageView
-                android:id="@+id/profile_icon"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/ic_profile"
                 android:layout_marginEnd="6dp"
                 app:tint="#FFFFFF" />
-
-            <TextView
-                android:id="@+id/profile_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Profile"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:fontFamily="sans-serif-medium"
-                android:shadowColor="#40000000"
-                android:shadowDx="0"
-                android:shadowDy="1"
-                android:shadowRadius="2"
-                android:visibility="gone"
-                android:singleLine="true"
-                android:ellipsize="none" />
 
         </LinearLayout>
 
