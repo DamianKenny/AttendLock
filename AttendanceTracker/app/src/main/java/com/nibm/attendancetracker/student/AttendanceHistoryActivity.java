@@ -15,6 +15,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.nibm.attendancetracker.R;
+import com.nibm.attendancetracker.common.NavigationHelper;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -48,6 +49,9 @@ public class AttendanceHistoryActivity extends AppCompatActivity {
         initializeViews();
         setupClickListeners();
         initializeFirebase();
+
+        // Setup navigation with role
+        NavigationHelper.setupNavigation(this, "student");
 
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
