@@ -1070,7 +1070,7 @@ public class FaceScanLocationActivity extends AppCompatActivity {
                         });
             } else {
                 // No scheduleId available - still navigate but log warning
-                Log.w(TAG, "⚠️ No scheduleId available - attendance saved to main collection only");
+                Log.w(TAG, "⚠ No scheduleId available - attendance saved to main collection only");
                 Toast.makeText(this, "Attendance saved (no schedule link)", Toast.LENGTH_LONG).show();
                 navigateToDashboard();
             }
